@@ -33,6 +33,13 @@ section = "docs/chars"
 url = "/docs/chars/"
 weight = 40
 
+[[extra.menu.main]]
+name = "Новости"
+section = "docs/news"
+url = "/docs/news/"
+weight = 50
+
+
 [[extra.list]]
 title = "Genesys"
 content = 'Скачать <a href="/files/genesys-rus.pdf">правила Genesys</a>'
@@ -44,5 +51,10 @@ content = 'Как <a href="/docs/rules/create-character/">создать пер�
 [[extra.list]]
 title = "Карта"
 content = '<a href="/map.html">Интерактивная карта вселенной</a>'
+
+
+[[extra.list]]
+title = "Новости"
+content = '<a href="/docs/news/1899/">1899 PD, Августа</a>'
 
 +++
