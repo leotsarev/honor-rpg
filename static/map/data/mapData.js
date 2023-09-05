@@ -9415,14 +9415,14 @@ var mapData =[
     "id": 732
   },
   {
-    "name": "",
+    "name": "Seish",
     "position": {
       "x": 28,
       "y": 2617,
       "z": 0
     },
     "owner": {
-      "id": "0",
+      "id": "25",
       "capital" : false
     },
     "id": 733
