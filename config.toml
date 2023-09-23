@@ -16,6 +16,9 @@ build_search_index = false
 # Theme can be customized by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
+[slugify]
+anchors = "on"
+
 [extra]
 # Put all your custom variables here
 
