@@ -7,6 +7,7 @@ draft = false
 weight = 35
 sort_by = "weight"
 template = "docs/page.html"
+aliases = ["/docs/setting/haven-hymn/"]
 
 [extra]
 toc = false

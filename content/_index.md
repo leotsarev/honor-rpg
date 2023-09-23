@@ -22,22 +22,30 @@ url = "/docs/setting/"
 weight = 20
 
 [[extra.menu.main]]
+name = "Мантикора"
+section = "docs/manticore"
+url = "/docs/manticore/"
+weight = 22
+
+[[extra.menu.main]]
+name = "Хевен"
+section = "docs/haven"
+url = "/docs/haven/"
+weight = 24
+
+[[extra.menu.main]]
 name = "Оргинфо"
 section = "docs/orginfo"
 url = "/docs/orginfo/"
 weight = 30
 
 [[extra.menu.main]]
-name = "Персонажи"
-section = "docs/chars"
-url = "/docs/chars/"
-weight = 40
-
-[[extra.menu.main]]
 name = "Новости"
 section = "docs/news"
 url = "/docs/news/"
 weight = 50
+
+
 
 
 [[extra.list]]

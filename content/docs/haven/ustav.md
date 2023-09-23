@@ -7,6 +7,7 @@ draft = false
 weight = 110
 sort_by = "weight"
 template = "docs/page.html"
+aliases = ["docs/setting/haven-ustav/"]
 
 [extra]
 toc = true

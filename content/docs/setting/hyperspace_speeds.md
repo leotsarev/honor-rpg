@@ -1,10 +1,10 @@
 +++
-title = "Скорости кораблей в гиперпространстве"
+title = "Скорости кораблей"
 description = "Введение в сеттинг"
 date = 2023-09-15
 updated = 2023-09-15
 draft = false
-weight = 100
+weight = 120
 sort_by = "weight"
 template = "docs/page.html"
 

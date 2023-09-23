@@ -1,5 +1,5 @@
 +++
-title = "Хевен"
+title = "Анонс Хевена"
 description = "Что нужно знать про Хевен"
 date = 2022-03-06
 updated = 2022-03-06
@@ -7,6 +7,7 @@ draft = false
 weight = 15
 sort_by = "weight"
 template = "docs/page.html"
+aliases = ["/docs/setting/haven/"]
 
 [extra]
 toc = true

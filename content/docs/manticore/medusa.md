@@ -7,6 +7,7 @@ draft = false
 weight = 115
 sort_by = "weight"
 template = "docs/page.html"
+aliases = ["docs/setting/medusa" ]
 
 [extra]
 toc = true

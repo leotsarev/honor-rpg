@@ -1,12 +1,13 @@
 +++
-title = "Мантикора"
+title = "Анонс Мантикоры"
 description = "Что нужно знать про Мантикору"
 date = 2022-03-06
-updated = 2022-03-06
-draft = false
-weight = 115
-sort_by = "weight"
+updated = 2023-09-23
 template = "docs/page.html"
+sort_by = "weight"
+weight = 1
+draft = false
+aliases = ["docs/setting/manticore/"]
 
 [extra]
 toc = true
