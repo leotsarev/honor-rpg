@@ -13,4 +13,4 @@ toc = false
 top = false
 +++
 
-<a href="https://honor-avatars.tsarevs.ru/winton_family.png"><img src="https://honor-avatars.tsarevs.ru/winton_family.png" style="max-width:90%"></a>
+{{ image_resized(url="https://honor-avatars.tsarevs.ru/winton_family.png")}}

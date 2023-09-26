@@ -10,9 +10,8 @@ template = "docs/page.html"
 aliases = ["docs/setting/medusa" ]
 
 [extra]
-toc = true
+toc = false
 top = false
 +++
 
-
- ![Карта Медузы](../medusa_map.png)
+{{ image_resized(url="../medusa_map.png")}}
