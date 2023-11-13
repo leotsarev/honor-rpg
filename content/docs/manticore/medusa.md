@@ -14,4 +14,4 @@ toc = false
 top = false
 +++
 
-{{ image_resized(url="../medusa_map.png")}}
+{{ image_resized(url="../medusa_map2.png")}}
