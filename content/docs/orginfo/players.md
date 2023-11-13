@@ -17,19 +17,21 @@ top = false
 
 ## Хевен
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="ivan_kotiyar.png") }}
 ##### Гражданин лейтенант Иван Котияр, третий механик супердредноута НРФ «Руссо»
 Игрок: Гоша <https://t.me/GrayFox23b>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="privat_nox.png") }}
 ##### Гражданин матрос Генри Нокс, моторист супердредноута НРФ «Руссо»
+Сын адмирала Амоса Нокса.
+
 Игрок: Егор <https://t.me/Korran_Horn>
 
 {{ charblock(img="vladimir-dubua.jpg") }}
 ##### Гражданин мичман Владимир Дюбуа, пилот шаттла на супердредноуте НРФ «Руссо»
 Игрок: Никита Тельнор <https://t.me/mrtelnor>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="butch.png") }}
 ##### Гражданин мичман Энтони Буч, один из судовых врачей супердредноута НРФ «Руссо»
 Игрок: Скракан <https://t.me/scrackan>
 
@@ -37,23 +39,25 @@ top = false
 
 ## Мантикора
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="luticia_yang.png") }}
 ##### Лейтенант 2го класса Лютиция Янг, заместитель командира взвода морской пехоты легкого крейсера КФМ «Честный»
 Игрок: Руслана <https://t.me/blakotya>
 
-{{ charblock(img="unknown-man.webp") }}
-##### Энсин Родерик Хейлз Янг, заместитель тактического офицера легкого крейсера КФМ «Честный»
+{{ charblock(img="roderick_heils.png") }}
+##### Энсин Родерик Хейлз, заместитель тактического офицера легкого крейсера КФМ «Честный»
 Игрок: Берни <https://t.me/bernh1>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="paula_ramires.png") }}
 ##### Энсин Паула Габриэла Долорес Рамирес, один из судовых врачей легкого крейсера КФМ «Честный»
+В очереди наследования мантикорской короны — десятая.
+
 Игрок: Мила <https://t.me/Reptilliya>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="frencis_moran.png") }}
 ##### Энсин Френсис Моран, инженер-механик легкого крейсера КФМ «Честный»
 Игрок: Алисия <https://t.me/a_lissia>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="ralf_torn.png") }}
 ##### Энсин Ральф Торн, пилот шаттла на легком крейсера КФМ «Честный»
 Игрок: Вер <https://t.me/Werrus>
 
@@ -61,16 +65,18 @@ top = false
 ##### Гардемарин Теодора Макиевич , и.о. помощника тактического офицера тяжелого крейсера КФМ «Принцесса Анжелика»
 Игрок: Лулукошка <https://t.me/Lu_in_pampas>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="morrigan_clain.png") }}
 ##### Гардемарин Морриган Клейн  , и.о. зам. командира взвода морпехов тяжелого крейсера КФМ «Принцесса Анжелика»
 Игрок: Кубела <https://t.me/KateKubela>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="hovard_webb.png") }}
 ##### Гардемарин Говард Вебб , и.о. третьего механика переднего реактора тяжелого крейсера КФМ «Принцесса Анжелика»
 Игрок: Молидеус <https://t.me/Molydeus>
 
-{{ charblock(img="unknown-man.webp") }}
+{{ charblock(img="hustav_hauptmann.png") }}
 ##### Гардемарин Густав Гауптман, и.о. помощника офицера разведки тяжелого крейсера КФМ «Принцесса Анжелика»
+Сын Клауса Гауптмана.
+
 Игрок: Стилгар <https://t.me/plysskin>
 
 {{ charblock(img="unknown-man.webp") }}
