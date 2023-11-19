@@ -1,6 +1,6 @@
 +++
-title = "Скиллы"
-description = "Скиллы"
+title = "Навыки"
+description = "Навыки"
 date = 2022-03-05
 updated = 2022-03-05
 draft = false
