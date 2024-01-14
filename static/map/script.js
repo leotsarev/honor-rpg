@@ -584,6 +584,15 @@ function getFactionLogo(star) {
 		return factionData[0].logo;
 }
 
+function getFactionUri(star) {
+	var factionID = star.owner.id;
+	if (typeof factionData[factionID] !== 'undefined' &&
+		factionData[factionID].factionUri !== '') {
+		return factionData[factionID].factionUri;
+	} else
+		return null;
+}
+
 function getFactionName(star) {
 	var factionID = star.owner.id;
 	if (typeof factionData[factionID] !== 'undefined') {
@@ -632,12 +641,26 @@ function pointInCircle(point, shape) {
 function showDetails(star) {
 	// TODO: Replace with Angular or something like it. This is really rudimentary stuff, just to get something on screen...
 	var owner = getFactionName(star);
-	var logo = getFactionLogo(star)
+	var logo = getFactionLogo(star);
+	var uri = getFactionUri(star);
 		$('#starname').text(star.name);
 	if (star.name === '') {
 		$('#starname').text(star.id);
 	}
-	$('#starowner').text(owner);
+	
+	if (uri)
+	{
+		$('#starowner').empty();
+		$('#starowner').append($("<a/>", {
+			href: uri,
+			text: owner
+		}));
+	}
+	else
+	{
+		$('#starowner').text(owner);
+	}
+
 	$('#starid').text(star.id);
 	// if(star.unit.name !== '') {
 	// owner = 'Unit: ' + star.unit.name;

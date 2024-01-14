@@ -8447,8 +8447,8 @@ var mapData =[
       "z": 0
     },
     "owner": {
-      "id": "0",
-      "capital" : false
+      "id": "30",
+      "capital" : true
     },
     "id": 658
   },

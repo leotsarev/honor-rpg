@@ -40,6 +40,7 @@ var factionData ={
 		"name": "Star Kingdom of Manticore", //"Star Empire of Manticore - SKM",
 		"color": "#a0e000",
 		"logo": "./map/logo/Manticore_flag.jpg",
+		"factionUri": "/docs/manticore/main/",
 	},
 	"7":{
 		"id": "7",
@@ -160,5 +161,12 @@ var factionData ={
 		"name":  "Masada", //"Anderman Empire - Silesia",
 		"color": "#ccff00", //"#f5f50a",
 		"logo": "./map/logo/unknown2.png", // "./map/logo/ImperialAndermaniNavySign.jpg",
+	},
+	"30":{
+		"id": "30",
+		"name":  "Sa-Martin Republic", 
+		"color": "#FE0000",
+		"logo": "./map/logo/san-martin-old.jpg", 
+		"factionUri": "/docs/setting/realms/"
 	},
 }
