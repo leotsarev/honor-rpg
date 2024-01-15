@@ -7654,7 +7654,7 @@ var mapData =[
       "z": 0
     },
     "owner": {
-      "id": "10",
+      "id": "31",
       "capital" : false
     },
     "id": 597

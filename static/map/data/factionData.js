@@ -169,4 +169,10 @@ var factionData ={
 		"logo": "./map/logo/san-martin-old.jpg", 
 		"factionUri": "/docs/setting/realms/"
 	},
+	"31":{
+		"id": "31",
+		"name":  "Caliphate of Zanzibar", 
+		"color": "#ededed",
+		"logo": "./map/logo/unknown2.png",
+	},
 }
