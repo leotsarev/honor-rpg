@@ -12,6 +12,12 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4.0.0
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Compile speed file 
+        run: python .\scripts\length-generator.py
       - name: Build only 
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
@@ -25,6 +31,12 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4.0.0
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Compile speed file 
+        run: python .\scripts\length-generator.py
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
