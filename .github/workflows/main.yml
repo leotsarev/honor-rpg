@@ -11,7 +11,7 @@ jobs:
     if: github.ref != 'refs/heads/master'
     steps:
       - name: Checkout main
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.1
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -30,7 +30,7 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout main
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.1
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
