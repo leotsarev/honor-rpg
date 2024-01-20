@@ -28,10 +28,10 @@ def load_planet_pairs(planet_filename):
     with open(planet_filename, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-def calculate_distance(lhs, rhs, scale=12.5):
+def calculate_distance(lhs, rhs, scale=4.0):
     '''Возвращает примерную дистанцию между звездами по прямой в световых годах'''
     x_distance = abs((lhs["position"]["x"] - rhs["position"]["x"]))
-    y_distance = abs((lhs["position"]["x"] - rhs["position"]["y"]))
+    y_distance = abs((lhs["position"]["y"] - rhs["position"]["y"]))
 
     return (math.sqrt(math.pow(x_distance, 2) + math.pow(y_distance, 2)))/scale
 
@@ -69,7 +69,10 @@ def print_template(template_file_name):
 
     print(text)
 
+
+
 map_data = load_map_data(args.map_file)
+''' Как определить поправочный коэф print(calculate_distance(map_data[821],map_data[558],1) / 210) '''
 planet_pairs = load_planet_pairs(args.planet_file)
 rows = calculate_rows(map_data, planet_pairs)
 
