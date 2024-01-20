@@ -266,7 +266,21 @@ redraw(mapData);
 }*/
 
 var getMapData = function () {
-	data = mapData;
+	$.ajax({
+	  url: "./map/data/mapData.json",
+	  type: "GET",
+	  dataType: "json",
+	  async: false
+	}).done(function (json) {
+		mapData = data = json;
+	})
+	.fail(function( xhr, status, errorThrown ) {
+		alert( "Sorry, there was a problem!" );
+		console.log( "Error: " + errorThrown );
+		console.log( "Status: " + status );
+		console.dir( xhr );
+	  })
+	;
 	$('#date').text('Карта на 1899 PD');
 	$('#date').data('date', data.generated);
 	redraw(mapData);
