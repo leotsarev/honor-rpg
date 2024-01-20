@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Compile speed file 
-        run: python .\scripts\length-generator.py
+        run: python ./scripts/length-generator.py
       - name: Build only 
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
@@ -36,7 +36,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Compile speed file 
-        run: python .\scripts\length-generator.py
+        run: python ./scripts/length-generator.py
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
