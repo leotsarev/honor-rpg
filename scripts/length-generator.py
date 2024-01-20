@@ -4,10 +4,10 @@ import math
 import sys
 
 parser = argparse.ArgumentParser()
-parser.add_argument('map_file', nargs='?', default='.\static\map\data\mapData.json') 
-parser.add_argument('planet_file', nargs='?', default='.\content\docs\setting\hyperspace_planet_pairs.json')
-parser.add_argument('template_file', nargs='?', default='.\content\docs\setting\hyperspace_speeds.md.template')
-parser.add_argument('result_file', nargs='?', default='.\content\docs\setting\hyperspace_speeds.md')
+parser.add_argument('map_file', nargs='?', default='./static/map/data/mapData.json') 
+parser.add_argument('planet_file', nargs='?', default='./content/docs/setting/hyperspace_planet_pairs.json')
+parser.add_argument('template_file', nargs='?', default='./content/docs/setting/hyperspace_speeds.md.template')
+parser.add_argument('result_file', nargs='?', default='./content/docs/setting/hyperspace_speeds.md')
 args = parser.parse_args()
 
 # Скорость световых лет за год
