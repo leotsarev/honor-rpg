@@ -45,24 +45,16 @@ section = "docs/news"
 url = "/docs/news/"
 weight = 50
 
+[[extra.menu.main]]
+name = "Карта"
+section = "docs/setting/galaxy-map/"
+url = "docs/setting/galaxy-map/"
+weight = 60
+
 
 
 
 [[extra.list]]
 title = "Genesys"
 content = 'Скачать <a href="/files/genesys-rus.pdf">правила Genesys</a>'
-
-[[extra.list]]
-title = "Персонаж"
-content = 'Как <a href="/docs/rules/create-character/">создать персонажа</a>'
-
-[[extra.list]]
-title = "Карта"
-content = '<a href="/map.html">Интерактивная карта вселенной</a>'
-
-
-[[extra.list]]
-title = "Новости"
-content = '<a href="/docs/news/1899/">1899 PD, Августа</a>'
-
 +++
