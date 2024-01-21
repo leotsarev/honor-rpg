@@ -44,10 +44,13 @@ top = false
 
 |Планета&nbsp;1|Планета&nbsp;2|Расстояние|Торговец|Военный|Курьер|
 |---------|---------|----------|--------|---------------|------|
-|<nobr>Basilisk</nobr>|<nobr>Trevor's Star</nobr>|≈180.31&nbsp;св.&nbsp;лет|<nobr>≈60–89&nbsp;дней</nobr>|<nobr>≈26–31&nbsp;дней</nobr>|<nobr>≈22–26&nbsp;дней</nobr>|
-|<nobr>Beowulf</nobr>|<nobr>Sol</nobr>|≈4.64&nbsp;св.&nbsp;лет|≈2&nbsp;дней|≈1&nbsp;дней|≈1&nbsp;дней|
-|<nobr>Haven</nobr>|<nobr>Basilisk</nobr>|≈155.49&nbsp;св.&nbsp;лет|<nobr>≈52–77&nbsp;дней</nobr>|<nobr>≈22–26&nbsp;дней</nobr>|<nobr>≈19–22&nbsp;дней</nobr>|
-|<nobr>Marsh</nobr>|<nobr>Sachsen</nobr>|≈230.21&nbsp;св.&nbsp;лет|<nobr>≈77–114&nbsp;дней</nobr>|<nobr>≈33–39&nbsp;дней</nobr>|<nobr>≈28–33&nbsp;дней</nobr>|
-|<nobr>Posnan</nobr>|<nobr>Saginaw</nobr>|≈214.19&nbsp;св.&nbsp;лет|<nobr>≈72–106&nbsp;дней</nobr>|<nobr>≈30–36&nbsp;дней</nobr>|<nobr>≈26–30&nbsp;дней</nobr>|
-|<nobr>Saginaw</nobr>|<nobr>Basilisk</nobr>|≈230.60&nbsp;св.&nbsp;лет|<nobr>≈77–114&nbsp;дней</nobr>|<nobr>≈33–39&nbsp;дней</nobr>|<nobr>≈28–33&nbsp;дней</nobr>|
-|<nobr>Trevor's Star</nobr>|<nobr>Haven</nobr>|≈134.46&nbsp;св.&nbsp;лет|<nobr>≈45–67&nbsp;дней</nobr>|<nobr>≈19–23&nbsp;дней</nobr>|<nobr>≈16–19&nbsp;дней</nobr>|
+|<nobr>Basilisk</nobr>|<nobr>Trevor's Star</nobr>|≈221.64&nbsp;св.&nbsp;лет|<nobr>≈74–110&nbsp;дней</nobr>|<nobr>≈31–38&nbsp;дней</nobr>|<nobr>≈27–31&nbsp;дней</nobr>|
+|<nobr>Haven</nobr>|<nobr>Basilisk</nobr>|≈241.52&nbsp;св.&nbsp;лет|<nobr>≈81–120&nbsp;дней</nobr>|<nobr>≈34–41&nbsp;дней</nobr>|<nobr>≈29–34&nbsp;дней</nobr>|
+|<nobr>Haven</nobr>|<nobr>Erewhon</nobr>|≈280.93&nbsp;св.&nbsp;лет|<nobr>≈94–139&nbsp;дней</nobr>|<nobr>≈40–48&nbsp;дней</nobr>|<nobr>≈34–40&nbsp;дней</nobr>|
+|<nobr>Manticore</nobr>|<nobr>Basilisk</nobr>|≈0.00&nbsp;св.&nbsp;лет|≈0&nbsp;дней|≈0&nbsp;дней|≈0&nbsp;дней|
+|<nobr>Marsh</nobr>|<nobr>Sachsen</nobr>|≈15.60&nbsp;св.&nbsp;лет|<nobr>≈5–8&nbsp;дней</nobr>|<nobr>≈2–3&nbsp;дней</nobr>|≈2&nbsp;дней|
+|<nobr>Posnan</nobr>|<nobr>Saginaw</nobr>|≈33.19&nbsp;св.&nbsp;лет|<nobr>≈11–16&nbsp;дней</nobr>|<nobr>≈5–6&nbsp;дней</nobr>|<nobr>≈4–5&nbsp;дней</nobr>|
+|<nobr>Saginaw</nobr>|<nobr>Basilisk</nobr>|≈97.50&nbsp;св.&nbsp;лет|<nobr>≈33–48&nbsp;дней</nobr>|<nobr>≈14–17&nbsp;дней</nobr>|<nobr>≈12–14&nbsp;дней</nobr>|
+|<nobr>Sol</nobr>|<nobr>Beowulf</nobr>|≈44.20&nbsp;св.&nbsp;лет|<nobr>≈15–22&nbsp;дней</nobr>|<nobr>≈6–7&nbsp;дней</nobr>|<nobr>≈5–6&nbsp;дней</nobr>|
+|<nobr>Sol</nobr>|<nobr>Sasebo</nobr>|≈143.69&nbsp;св.&nbsp;лет|<nobr>≈48–71&nbsp;дней</nobr>|<nobr>≈20–24&nbsp;дней</nobr>|<nobr>≈17–20&nbsp;дней</nobr>|
+|<nobr>Trevor's Star</nobr>|<nobr>Haven</nobr>|≈83.67&nbsp;св.&nbsp;лет|<nobr>≈28–41&nbsp;дней</nobr>|<nobr>≈12–14&nbsp;дней</nobr>|<nobr>≈10–12&nbsp;дней</nobr>|

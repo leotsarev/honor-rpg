@@ -50,7 +50,12 @@ def format_row(row):
 def get_row(map_data, left_idx, right_idx):
     lhs = map_data[left_idx]
     rhs = map_data[right_idx]
-    distance = calculate_distance (lhs, rhs)
+
+    if ("termini" in lhs and right_idx in lhs["termini"]) or ("termini" in rhs and left_idx in rhs["termini"]):
+        distance = 0
+    else:
+        distance = calculate_distance (lhs, rhs)
+
     speed = get_speed(distance)
     return  dict(lhs_name = lhs["name"], rhs_name = rhs["name"], distance = distance, speed = speed)
 

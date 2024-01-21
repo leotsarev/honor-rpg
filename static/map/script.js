@@ -396,6 +396,7 @@ function ColorLuminance(hex, lum) {
 
 function drawHyperJunctions(context) {
 
+	return;
 	$.each(hyperJuntionData, function () {
 		junction = this.junction;
 		termini = this.termini;
@@ -404,29 +405,50 @@ function drawHyperJunctions(context) {
 
 			//draw hyperbridges
 
-			context.beginPath();
-			context.moveTo(mapData[junction - 1].position.x, -mapData[junction - 1].position.y);
-			context.lineTo(mapData[term.dest - 1].position.x, -mapData[term.dest - 1].position.y);
-			context.strokeStyle = 'white';
-
-			context.lineWidth = 1 / zoomLevel;
-			context.fillStyle = 'white';
-			context.save();
-			if (zoomLevel > 0.3) {
-				context.font = (fontSize + 5).toFixed(0) + 'px sans-serif';
-
-				if (term.ly) {
-					//TODO ROTATE
-					context.strokeText(term.ly + " LY", parseInt((mapData[junction - 1].position.x + mapData[term.dest - 1].position.x) / 2) + 5, parseInt((-mapData[junction - 1].position.y + -mapData[term.dest - 1].position.y) / 2) + 1);
-					context.fillText(term.ly + " LY", parseInt((mapData[junction - 1].position.x + mapData[term.dest - 1].position.x) / 2) + 5, parseInt((-mapData[junction - 1].position.y + -mapData[term.dest - 1].position.y) / 2) + 1);
-				}
-			}
-			context.restore();
-			context.stroke();
-			context.closePath();
+			drawTermini(context, junction, term.dest);
 
 		}
 	});
+
+	
+}
+
+function drawTermini(context, junction, dest_id) {
+	const junctionPosition = mapData[junction - 1].position;
+	const destPosition = mapData[dest_id - 1].position;
+
+	context.beginPath();
+	
+	context.moveTo(junctionPosition.x, -junctionPosition.y);
+	
+	context.lineTo(destPosition.x, -mapData[dest_id - 1].position.y);
+	context.strokeStyle = 'white';
+
+	context.lineWidth = 1 / zoomLevel;
+	context.fillStyle = 'white';
+	context.save();
+	if (zoomLevel > 0.3) {
+		context.font = (fontSize + 5).toFixed(0) + 'px sans-serif';
+		tunnel_length = calculate_distance(junctionPosition, destPosition)
+
+		if (tunnel_length) {
+			//TODO ROTATE
+			context.strokeText(tunnel_length + " LY", parseInt((junctionPosition.x + mapData[dest_id - 1].position.x) / 2) + 5, parseInt((-junctionPosition.y + -mapData[dest_id - 1].position.y) / 2) + 1);
+			context.fillText(tunnel_length + " LY", parseInt((junctionPosition.x + mapData[dest_id - 1].position.x) / 2) + 5, parseInt((-junctionPosition.y + -mapData[dest_id - 1].position.y) / 2) + 1);
+		}
+	}
+	context.restore();
+	context.stroke();
+	context.closePath();
+}
+
+function calculate_distance(lhs, rhs)
+{
+	const scale = 4.0;
+	x_distance = Math.abs(lhs.x - rhs.x)
+    y_distance = Math.abs(lhs.y - rhs.y)
+
+    return Math.round((Math.sqrt(Math.pow(x_distance, 2) + Math.pow(y_distance, 2)))/scale)
 }
 
 function drawInfluenceZones(context, scratch_context) {
@@ -503,8 +525,18 @@ function drawStars(context) {
 				context.stroke();
 				context.closePath();
 			}
-		} else if (this.name === 'Terra') {
-			//console.log('not rendering Terra', this);
+
+			if (this.termini)
+			{
+				id = this.id;
+				this.termini.map ( function(term) {drawTermini(context, id, term)});
+			}
+
+		} else if (this.termini)
+		{
+			// Need to render termini if star is not visible
+			id = this.id;
+			this.termini.map ( function(term) {drawTermini(context, id, term)});
 		}
 	});
 }

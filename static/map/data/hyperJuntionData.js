@@ -1,15 +1,15 @@
 var hyperJuntionData =[	
 		{
 			"junction": "558",
-			"termini":[
+			"termini":[ ]
 				{
 				"dest": "152",
 				"ly": 475
 				},
-				/* Talbot sector{
+				{
 				"dest": "160",
 				"ly": 612
-				},*/
+				},
 				{
 				"dest": "512",
 				"ly": 472
