@@ -165,7 +165,8 @@
     "owner": {
       "id": "0"
     },
-    "id": 14
+    "id": 14,
+    "termini": [215]
   },
   {
     "name": "",
@@ -7738,8 +7739,7 @@
       "id": "14",
       "capital" : false
     },
-    "id": 603,
-    "termini": [215]
+    "id": 603
   },
   {
     "name": "Minorca",
