@@ -4,7 +4,7 @@ description = "Речь председателя Роба С. Пьера"
 date = 2023-08-27
 updated = 2023-08-27
 draft = false
-weight = 20001
+weight = 18990
 sort_by = "weight"
 template = "docs/page.html"
 

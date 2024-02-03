@@ -1,10 +1,10 @@
 +++
-title = "Речи об объявлении войны"
+title = "1902. Речи об объявлении войны"
 description = "Новости о начале войны"
 date = 2024-01-26
 updated = 2024-01-26
 draft = false
-weight = 300001
+weight = 19020
 sort_by = "weight"
 template = "docs/page.html"
 

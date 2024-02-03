@@ -4,7 +4,7 @@ description = "Почему война неизбежна: Хевен завою
 date = 2023-08-12
 updated = 2023-08-12
 draft = false
-weight = 20000
+weight = 18901
 sort_by = "weight"
 template = "docs/page.html"
 
