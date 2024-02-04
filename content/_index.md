@@ -5,8 +5,8 @@ title = "Модуль по хонор"
 # The homepage contents
 [extra]
 lead = 'Все по модулю Царевых по <b>вселенной хонор</b>'
-url = "/docs/orginfo/teaser/"
-url_button = "Тизер"
+url = "/docs/news/1902/"
+url_button = "Новости (1902)"
 
 # Menu items
 [[extra.menu.main]]
@@ -34,9 +34,9 @@ url = "/docs/haven/"
 weight = 24
 
 [[extra.menu.main]]
-name = "Оргинфо"
-section = "docs/orginfo"
-url = "/docs/orginfo/"
+name = "Игроки"
+section = "/docs/orginfo/players"
+url = "/docs/orginfo/players"
 weight = 30
 
 [[extra.menu.main]]
