@@ -165,8 +165,7 @@
     "owner": {
       "id": "0"
     },
-    "id": 14,
-    "termini": [215]
+    "id": 14
   },
   {
     "name": "",
@@ -397,7 +396,7 @@
     "id": 33
   },
   {
-    "name": "",
+    "name": "Epsilon Virgo",
     "position": {
       "x": 1167,
       "y": -442,
@@ -2692,7 +2691,8 @@
       "id": "0",
       "capital" : false
     },
-    "id": 215
+    "id": 215,
+    "termini": [14, 34]
   },
   {
     "name": "",
@@ -7482,14 +7482,14 @@
     "id": 583
   },
   {
-    "name": "",
+    "name": "Clairmont",
     "position": {
       "x": 502,
       "y": 2145,
       "z": 0
     },
     "owner": {
-      "id": "0",
+      "id": "9",
       "capital" : false
     },
     "id": 584
@@ -8782,14 +8782,14 @@
     "id": 683
   },
   {
-    "name": "Clairmont",
+    "name": "",
     "position": {
       "x": -220,
       "y": 2484,
       "z": 0
     },
     "owner": {
-      "id": "9",
+      "id": "0",
       "capital" : false
     },
     "id": 684
