@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8"/>
+  <link rel="stylesheet" href="static/style.css">
+  <!--<link rel="stylesheet" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+  <link rel="stylesheet" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>-->
+  <title>Genesys adversary generator</title>
+</head>
+
+<body>
+  <article>
+    <div>
+      <div id="card">
+        <header>
+          <p id="name">Имя<p>
+              {% include 'power_level.svg' %}
+        </header> 
+        {% include "caracteristics.svg" %} 
+
+        <div id="defense">
+          {% include "soak.svg" %}
+          {% include "wt.svg" %}
+          {% include "st.svg" %}
+          {% include "defense.svg" %}
+        </div> 
+        <p><span class="section">Навыки: </span><span class="skills">нет.</span></p>
+        <p><span class="section">Таланты: </span><span class="talents">нет.</span></p>
+        <p><span class="section">Способности: </span><span class="abilities">нет.</span></p>
+        <p><span class="section">Оружие: </span><span class="weapons">нет.</span></p>
+        <p><span class="section">Снаряжение: </span><span class="equipment">нет.</span></p>
+        <div id="warn"><p><span class="section">⚠️ Предупреждения: </span></p><ul class="warnings"></ul></div>
+      </div>
+    </div>
+
+    <div id="main_box">
+      <form id="type">
+        <fieldset>
+          <input name="type" type="radio" onchange="update()" id="minion" value="minion"><label for="minion">Приспешники</label>
+          <input name="type" type="radio" onchange="update()" id="rival" value="rival" checked><label for="rival">Соперник</label>
+          <input name="type" type="radio" onchange="update()" id="nemesis" value="nemesis"><label for="nemesis">Главарь</label>
+          <div id="filler"></div>
+          <input name="name" type="text" placeholder="Имя" oninput="update_name()">
+        </fieldset>
+
+        <fieldset>
+          <legend>Наборы характеристик</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Название</th>
+              <th>Характеристики</th>
+              <th colspan="6">Уровни мощи</th>
+              <th>Примеры</th>
+            </tr>
+            {% for array in caracteristics %}
+            {% set loop_outer, id = loop, "caracteristics" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="radio" id="caracteristics{{loop.index0}}" name="caracteristics" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="caracteristics{{loop.index0}}">{{array['name']}}</label></td>
+              <td><label for="caracteristics{{loop.index0}}">{% for name, value in array['caracs'].items() %}
+                 {{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}
+                 {% endfor %}</label></td>
+              {% for name, value in array['power_level'].items() %}<td class="icon"><label for="{{id}}"><img src="static/{{name}}.svg" /></label></td>
+              <td class="level"><label for="{{id}}">{{value}}</label></td>{% endfor %} 
+              <td><label for="{{id}}">{{array['ex']}}</label></td>
+            </tr>
+            {% endfor %}
+          </table>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Поглощение/защита/раны/усталость</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Название</th>
+              <th>Производные</th>
+              <th colspan="6">Уровни мощи</th>
+              <th>Примеры</th>
+            </tr> 
+            {% for array in defense %}
+            {% set loop_outer, id = loop, "defense" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="defense{{loop.index0}}" name="defense" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="defense{{loop.index0}}">{{array['name']}}</label></td>
+              <td><label for="defense{{loop.index0}}">
+                  {% for name, value in array['defense'].items() %}{{'{:+} '.format(value) ~ name}}{{", " if not loop.last}}{% endfor %}
+                </label></td> 
+                {% for name, value in array['power_level'].items() %}<td class="icon"><label for="defense{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td>
+                <td class="level"><label for="defense{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+                <td><label for="defense{{loop.index0}}">{{array['ex']}}</label></td>
+            </tr>
+            {% endfor %}
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend>Наборы навыков</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Название</th>
+              <th>Навыки</th>
+              <th colspan="6">Уровни мощи</th>
+            </tr>
+
+            {% for array in skills %}
+            {% set loop_outer, id = loop, "skills" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="skills{{loop.index0}}" name="skills" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="skills{{loop.index0}}">{{array['name']}}</label></td>
+              <td><label for="skills{{loop.index0}}">
+                  {% for name, value in array['skills'].items() %}{{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}
+                </label></td> 
+                {% for name, value in array['power_level'].items() %}<td class="icon"><label for="skills{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="skills{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+            </tr>
+            {% endfor %}
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend>Таланты противников</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Талант</th>
+              <th>Описание</th>
+              <th colspan="6">Уровни мощи</th>
+            </tr>
+
+            {% for array in talents %}
+            {% set loop_outer, id = loop, "talents" ~ loop.index0 %}
+
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="talents{{loop.index0}}" name="talents" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="talents{{loop.index0}}">{{array['talent']}}</label></td>
+              <td><label for="talents{{loop.index0}}">{{array['desc']}}</label></td>
+              {% for name, value in array['power_level'].items() %}<td class="icon"><label for="talents{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="talents{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+            </tr>
+            {% endfor %}
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>Способности противников</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Способность</th>
+              <th>Описание</th>
+              <th colspan="6">Уровни мощи</th>
+              <th>Примеры</th>
+            </tr>
+
+            {% for array in abilities %}
+            {% set loop_outer, id = loop, "abilities" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="abilities{{loop.index0}}" name="abilities" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="abilities{{loop.index0}}">{{array['ability']}}</label></td>
+              <td><label for="abilities{{loop.index0}}">{{array['desc']}}</label></td>
+              {% for name, value in array['power_level'].items() %}<td class="icon"><label for="talents{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="abilities{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+              <td><label for="abilities{{loop.index0}}">{{array['ex']}}</label></td>
+            </tr>
+            {% endfor %}
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>Наборы снаряжения</legend>
+          <table>
+            <thead>
+              <tr>
+                <th rowspan=2></th>
+                <th rowspan=2>Название</th>
+                <th rowspan=2>Описание</th>
+                <th rowspan=1>Оружие</th>
+                <th rowspan=2 colspan="6">Уровни мощи</th>
+              </tr>
+              <tr>
+                <th rowspan=1>Снаряжение</th>
+              </tr>
+            </thead>
+            {% for array in equipment %}
+            {% set loop_outer, id = loop, 'equipment' ~ loop.index0 %}
+            <tbody class="row" onclick="click_row('{{id}}');">
+              <tr>
+                <td rowspan=2 class="select"><input type="radio" id="equipment{{loop.index0}}" name="equipment" onchange="update()" value="{{loop.index0}}"></td>
+                <td rowspan=2><label for="equipment{{loop.index0}}">{{array['name']}}</label></td>
+                <td rowspan=2><label for="equipment{{loop.index0}}">{{array['desc']}}</label></td>
+                <td rowspan=1><label for="equipment{{loop.index0}}">{{array['weapons']}}</label></td>
+                {% for name, value in array['power_level'].items() %}<td rowspan=2 class="icon"><label for="equipment{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td rowspan=2 class="level"><label for="equipment{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+              </tr>
+              <tr>
+                <td rowspan=1><label for="equipment{{loop.index0}}">{{array['equipment']}}</label></td>
+              </tr>
+            </tbody>
+            {% endfor %}
+          </table>
+
+        </fieldset>
+
+      </form>
+      <!-- Вместо этого добавить сюда генерацию markdown
+        <fieldset id="save">
+          <button onclick="toogle_template()" type="button">Wiki template</button>
+          <textarea readonly> </textarea>
+          <button onclick="copy()" type="button" id="copy">Copy to clipboard</button>
+        </fieldset>
+        -->
+    </div>
+  </article>
+  <footer><a href="https://github.com/ytterbium/genesys-adversary-generator">Основано на</a> 
+    <br>
+    Описания идут из книг FFG (Expanded Player Guide and Core Rulebook)</footer>
+  
+
+  <script type="text/javascript">
+    const json_data = '{{data|safe}}';
+  </script>
+  <script type="text/javascript" src="static/script.js"></script>
+</body>
+
+
