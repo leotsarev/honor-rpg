@@ -13,8 +13,9 @@
 {% block content %}
 <div class="wrap container" role="document">
   <div class="content">
-    <div class="row justify-content-center">
-      <div class="col-md-12 col-lg-10 col-xxl-8">
+    <div class="row flex-xl-nowrap">
+      {{ macros_sidebar::docs_sidebar(current_section=current_section, selected_section=section) }}
+      <div class="col-md-11 col-lg-10 col-xxl-8">
         <article>
           <h1 class="text-center">{{ section.title }}</h1>
           <div class="text-center">{{ section.content | safe }}</div>
@@ -43,7 +44,7 @@
           </div>
         </article>
       </div>
-    </div>
+  </div>
   </div>
 </div>
 {% endblock content %}
