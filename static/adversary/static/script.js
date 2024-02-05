@@ -116,13 +116,13 @@ function update(){
 
   text = document.querySelector('.talents');
     var talents = result['talents'];
-    text.innerHTML = talents.sort().join(', ') + '.';
+    text.innerHTML = talents.sort().join('<br>') + '.';
     if (Object.values(talents).length == 0) 
       text.innerHTML = 'нет.';
 
   text = document.querySelector('.abilities');
     var talents = result['abilities'];
-    text.innerHTML = talents.sort().join(', ') + '.';
+    text.innerHTML = talents.sort().join('<br>') + '.';
     if (Object.values(talents).length == 0) 
       text.innerHTML = 'нет.';
 

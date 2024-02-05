@@ -1,7 +1,7 @@
 {
   "caracteristics": [
     {
-      "name": "Small Creature",
+      "name": "Маленькое существо",
       "caracs": {
         "brawn": 1,
         "agility": 2,
@@ -15,10 +15,10 @@
         "social": -1,
         "general": 0
       },
-      "ex": "Mouse, bird, snake, cat"
+      "ex": "Мышь, птица, змея, кошка"
     },
     {
-      "name": "Large Creature",
+      "name": "Крупное существо",
       "caracs": {
         "brawn": 4,
         "agility": 2,
@@ -32,10 +32,10 @@
         "social": -1,
         "general": 0
       },
-      "ex": "Bear, ox, horse, cow, ram"
+      "ex": "Медведь, бык, конь, корова, баран"
     },
     {
-      "name": "Stealthy Creature",
+      "name": "Скрытное существо",
       "caracs": {
         "brawn": 2,
         "agility": 3,
@@ -49,10 +49,10 @@
         "social": -1,
         "general": 0
       },
-      "ex": "Puma, deer, shark"
+      "ex": "Пума, олень, акула"
     },
     {
-      "name": "Huge Creature",
+      "name": "Огромное существо",
       "caracs": {
         "brawn": 5,
         "agility": 1,
@@ -66,10 +66,10 @@
         "social": -1,
         "general": -1
       },
-      "ex": "Elephant, dinosaur"
+      "ex": "Слон, динозавр"
     },
     {
-      "name": "Average Person ",
+      "name": "Обычный человек",
       "caracs": {
         "brawn": 2,
         "agility": 2,
@@ -83,10 +83,10 @@
         "social": 0,
         "general": 0
       },
-      "ex": "Any regular person"
+      "ex": "Любой обычный человек"
     },
     {
-      "name": "Tough Person",
+      "name": "Суровый человек",
       "caracs": {
         "brawn": 3,
         "agility": 2,
@@ -100,10 +100,10 @@
         "social": -1,
         "general": 0
       },
-      "ex": "Laborer, mob tough, soldier"
+      "ex": "Рабочий, бандит, солдат"
     },
     {
-      "name": "Smart Person",
+      "name": "Умный человек",
       "caracs": {
         "brawn": 1,
         "agility": 2,
@@ -117,10 +117,10 @@
         "social": 0,
         "general": 0
       },
-      "ex": "Student, medic, hacker"
+      "ex": "Студент, медик, хакер"
     },
     {
-      "name": "Sociable Person",
+      "name": "Общительный человек",
       "caracs": {
         "brawn": 2,
         "agility": 2,
@@ -134,10 +134,10 @@
         "social": 0,
         "general": 0
       },
-      "ex": "Politician, manager"
+      "ex": "Политик, менеджер"
     },
     {
-      "name": "Jack of All Trades",
+      "name": "Мастер на все руки",
       "caracs": {
         "brawn": 3,
         "agility": 3,
@@ -151,10 +151,10 @@
         "social": 1,
         "general": 1
       },
-      "ex": "Any competent person"
+      "ex": "Любой компетентный человек"
     },
     {
-      "name": "Skilled Warrior",
+      "name": "Опытный воин",
       "caracs": {
         "brawn": 4,
         "agility": 3,
@@ -168,10 +168,10 @@
         "social": 0,
         "general": 0
       },
-      "ex": "Knight, berserker, veteran"
+      "ex": "Рыцарь, берсерк, ветеран"
     },
     {
-      "name": "Savant",
+      "name": "Ученый",
       "caracs": {
         "brawn": 2,
         "agility": 1,
@@ -185,10 +185,10 @@
         "social": -1,
         "general": 1
       },
-      "ex": "Scholar, researcher, surgeon"
+      "ex": "Ученый, исследователь, хирург"
     },
     {
-      "name": "Born Leader",
+      "name": "Прирожденный лидер",
       "caracs": {
         "brawn": 2,
         "agility": 2,
@@ -202,10 +202,10 @@
         "social": 2,
         "general": 0
       },
-      "ex": "President, ruler, general"
+      "ex": "Президент, правитель, генерал"
     },
     {
-      "name": "Cunning Foe",
+      "name": "Коварный противник",
       "caracs": {
         "brawn": 2,
         "agility": 4,
@@ -219,10 +219,10 @@
         "social": 0,
         "general": 1
       },
-      "ex": "Spy, assassin, military scout"
+      "ex": "Шпион, наемный убийца, разведчик"
     },
     {
-      "name": "Mastermind",
+      "name": "Злодей",
       "caracs": {
         "brawn": 3,
         "agility": 3,
@@ -236,17 +236,17 @@
         "social": 2,
         "general": 2
       },
-      "ex": "The main villain in a story"
+      "ex": "Главный злодей в истории"
     }
   ],
   "skills": [
     {
-      "name": "Basic Creature",
+      "name": "Просто существо",
       "skills": {
         "атлетика": 1,
-        "brawl": 1,
-        "survival": 2,
-        "vigilance": 2
+        "ближний бой": 1,
+        "выживание": 2,
+        "бдительность": 2
       },
       "power_level": {
         "combat": 0,
@@ -255,13 +255,13 @@
       }
     },
     {
-      "name": "Ferocious Creature",
+      "name": "Грозное существо",
       "skills": {
-        "athletics": 3,
-        "brawl": 4,
-        "perception": 2,
-        "survival": 3,
-        "vigilance": 1
+        "атлетика": 3,
+        "ближний бой": 4,
+        "внимание": 2,
+        "выживание": 3,
+        "бдительность": 1
       },
       "power_level": {
         "combat": 1,
@@ -270,13 +270,13 @@
       }
     },
     {
-      "name": "Predatory Creature",
+      "name": "Хищное существо",
       "skills": {
-        "brawl": 3,
-        "coordination": 3,
-        "perception": 4,
-        "survival": 2,
-        "stealth": 3
+        "ближний бой": 3,
+        "координация": 3,
+        "внимание": 4,
+        "выживание": 2,
+        "скрытность": 3
       },
       "power_level": {
         "combat": 1,
@@ -285,12 +285,12 @@
       }
     },
     {
-      "name": "Territorial Creature",
+      "name": "Местное существо",
       "skills": {
-        "brawl": 2,
-        "resilience": 3,
-        "survival": 4,
-        "vigilance": 4
+        "ближний бой": 2,
+        "стойкость": 3,
+        "выживание": 4,
+        "бдительность": 4
       },
       "power_level": {
         "combat": 0,
@@ -299,14 +299,14 @@
       }
     },
     {
-      "name": "Soldier",
+      "name": "Воин",
       "skills": {
-        "athletics": 2,
-        "discipline": 1,
-        "melee": 2,
-        "ranged": 2,
-        "resilience": 2,
-        "vigilance": 2
+        "атлетика": 2,
+        "выдержка": 1,
+        "ближний бой": 2,
+        "дальний бой": 2,
+        "стойкость": 2,
+        "бдительность": 2
       },
       "power_level": {
         "combat": 1,
@@ -315,12 +315,12 @@
       }
     },
     {
-      "name": "Duelist",
+      "name": "Дуэлянт",
       "skills": {
-        "cool": 3,
-        "coordination": 3,
-        "melee": 5,
-        "stealth": 1
+        "хладнокровие": 3,
+        "координация": 3,
+        "ближний бой": 5,
+        "скрытность": 1
       },
       "power_level": {
         "combat": 1,
@@ -329,14 +329,14 @@
       }
     },
     {
-      "name": "Scout/Sniper",
+      "name": "Разведчик/Снайпер",
       "skills": {
-        "cool": 2,
-        "perception": 3,
-        "ranged": 5,
-        "stealth": 4,
-        "survival": 3,
-        "vigilance": 3
+        "хладнокровие": 2,
+        "внимание": 3,
+        "дальний бой": 5,
+        "скрытность": 4,
+        "выживание": 3,
+        "бдительность": 3
       },
       "power_level": {
         "combat": 2,
@@ -345,11 +345,11 @@
       }
     },
     {
-      "name": "Brawler/Laborer",
+      "name": "Дебошир/Разнорабочий",
       "skills": {
-        "athletics": 3,
-        "brawl": 2,
-        "resilience": 3
+        "атлетика": 3,
+        "ближний бой": 2,
+        "стойкость": 3
       },
       "power_level": {
         "combat": 0,
@@ -358,12 +358,12 @@
       }
     },
     {
-      "name": "Gunslinger",
+      "name": "Стрелок",
       "skills": {
-        "cool": 3,
-        "coordination": 2,
-        "ranged": 4,
-        "skulduggery": 3
+        "хладнокровие": 3,
+        "координация": 2,
+        "дальний бой": 4,
+        "жульничество": 3
       },
       "power_level": {
         "combat": 1,
@@ -372,13 +372,13 @@
       }
     },
     {
-      "name": "Sailor",
+      "name": "Моряк",
       "skills": {
-        "athletics": 2,
-        "operating": 3,
-        "perception": 2,
-        "ranged": 1,
-        "vigilance": 1
+        "атлетика": 2,
+        "управление": 3,
+        "внимание": 2,
+        "дальний бой": 1,
+        "бдительность": 1
       },
       "power_level": {
         "combat": 0,
@@ -387,14 +387,14 @@
       }
     },
     {
-      "name": "Spy/Con Artist",
+      "name": "Шпион/Мошенник",
       "skills": {
-        "cool": 2,
-        "charm": 3,
-        "deception": 4,
-        "knowledge": 1,
-        "skulduggery": 4,
-        "stealth": 3
+        "хладнокровие": 2,
+        "обаяние": 3,
+        "обман": 4,
+        "знание": 1,
+        "жульничество": 4,
+        "скрытность": 3
       },
       "power_level": {
         "combat": 0,
@@ -403,15 +403,15 @@
       }
     },
     {
-      "name": "Thief/Assassin",
+      "name": "Вор/Убийца",
       "skills": {
-        "coordination": 3,
-        "deception": 2,
-        "melee": 3,
-        "skulduggery": 4,
-        "stealth": 5,
-        "streetwise": 3,
-        "vigilance": 1
+        "координация": 3,
+        "обман": 2,
+        "ближний бой": 3,
+        "жульничество": 4,
+        "скрытность": 5,
+        "уличная интуиция": 3,
+        "бдительность": 1
       },
       "power_level": {
         "combat": 1,
@@ -420,13 +420,13 @@
       }
     },
     {
-      "name": "Researcher",
+      "name": "Исследователь",
       "skills": {
-        "astrocartography": 5,
-        "computers": 3,
-        "discipline": 2,
-        "knowledge": 5,
-        "perception": 4
+        "астрокартография": 5,
+        "компьютеры": 3,
+        "выдержка": 2,
+        "знание": 5,
+        "внимание": 4
       },
       "power_level": {
         "combat": 0,
@@ -435,13 +435,13 @@
       }
     },
     {
-      "name": "Natural Philosopher",
+      "name": "Натурфилософ",
       "skills": {
-        "alchemy": 4,
-        "knowledge": 4,
-        "medicine": 2,
-        "negotiation": 1,
-        "perception": 2
+        "алхимия": 4,
+        "знание": 4,
+        "медицина": 2,
+        "переговоры": 1,
+        "внимание": 2
       },
       "power_level": {
         "combat": 0,
@@ -450,13 +450,13 @@
       }
     },
     {
-      "name": "Doctor",
+      "name": "Доктор",
       "skills": {
-        "cool": 2,
-        "discipline": 2,
-        "leadership": 1,
-        "medicine": 4,
-        "melee": 1
+        "хладнокровие": 2,
+        "выдержка": 2,
+        "лидерство": 1,
+        "медицина": 4,
+        "ближний бой": 1
       },
       "power_level": {
         "combat": 0,
@@ -465,14 +465,14 @@
       }
     },
     {
-      "name": "Knight/Warrior Leader",
+      "name": "Рыцарь/Военачальник",
       "skills": {
-        "athletics": 1,
-        "discipline": 2,
-        "driving": 3,
-        "leadership": 3,
-        "melee": 4,
-        "riding": 3
+        "атлетика": 1,
+        "выдержка": 2,
+        "вождение": 3,
+        "лидерство": 3,
+        "ближний бой": 4,
+        "верховая езда": 3
       },
       "power_level": {
         "combat": 1,
@@ -481,14 +481,14 @@
       }
     },
     {
-      "name": "Captain of a Vessel",
+      "name": "Капитан судна",
       "skills": {
-        "astrocartography": 4,
-        "coercion": 2,
-        "discipline": 3,
-        "leadership": 4,
-        "operating": 4,
-        "ranged": 3
+        "астрокартография": 4,
+        "запугивание": 2,
+        "выдержка": 3,
+        "лидерство": 4,
+        "управление": 4,
+        "дальний бой": 3
       },
       "power_level": {
         "combat": 1,
@@ -497,14 +497,14 @@
       }
     },
     {
-      "name": "Politician/Official",
+      "name": "Политик/Чиновник",
       "skills": {
-        "charm": 4,
-        "coercion": 2,
-        "cool": 2,
-        "leadership": 3,
-        "negotiation": 5,
-        "vigilance": 1
+        "обаяние": 4,
+        "запугивание": 2,
+        "хладнокровие": 2,
+        "лидерство": 3,
+        "переговоры": 5,
+        "бдительность": 1
       },
       "power_level": {
         "combat": 0,
@@ -513,12 +513,12 @@
       }
     },
     {
-      "name": "Mage",
+      "name": "Маг",
       "skills": {
-        "alchemy": 2,
-        "arcana": 4,
-        "coercion": 2,
-        "knowledge": 4
+        "алхимия": 2,
+        "магия": 4,
+        "запугивание": 2,
+        "знание": 4
       },
       "power_level": {
         "combat": 2,
@@ -527,12 +527,12 @@
       }
     },
     {
-      "name": "Priest",
+      "name": "Жрец",
       "skills": {
-        "charm": 2,
-        "discipline": 3,
-        "divine": 4,
-        "knowledge": 4
+        "обаяние": 2,
+        "выдержка": 3,
+        "вера": 4,
+        "знание": 4
       },
       "power_level": {
         "combat": 2,
@@ -541,12 +541,12 @@
       }
     },
     {
-      "name": "Druid",
+      "name": "Друид",
       "skills": {
-        "knowledge": 4,
-        "primal": 4,
-        "survival": 3,
-        "vigilance": 2
+        "знание": 4,
+        "природа": 4,
+        "выживание": 3,
+        "бдительность": 2
       },
       "power_level": {
         "combat": 2,
@@ -555,14 +555,14 @@
       }
     },
     {
-      "name": "Pilot/Driver/Rider",
+      "name": "Пилот/Водитель/Всадник",
       "skills": {
-        "cool": 2,
-        "coordination": 3,
-        "driving": 4,
-        "piloting": 4,
-        "ranged": 3,
-        "riding": 4
+        "хладнокровие": 2,
+        "координация": 3,
+        "вождение": 4,
+        "пилотирование": 4,
+        "дальний бой": 3,
+        "верховая езда": 4
       },
       "power_level": {
         "combat": 1,
@@ -571,13 +571,13 @@
       }
     },
     {
-      "name": "Merchant",
+      "name": "Торговец",
       "skills": {
-        "charm": 2,
-        "deception": 3,
-        "negotiation": 3,
-        "perception": 2,
-        "vigilance": 3
+        "обаяние": 2,
+        "обман": 3,
+        "переговоры": 3,
+        "внимание": 2,
+        "бдительность": 3
       },
       "power_level": {
         "combat": 0,
@@ -586,14 +586,14 @@
       }
     },
     {
-      "name": "Crime Boss",
+      "name": "Криминальный босс",
       "skills": {
-        "brawl": 4,
-        "coercion": 5,
-        "discipline": 2,
-        "leadership": 2,
-        "ranged": 2,
-        "streetwise": 4
+        "ближний бой": 4,
+        "запугивание": 5,
+        "выдержка": 2,
+        "лидерство": 2,
+        "дальний бой": 2,
+        "уличная интуиция": 4
       },
       "power_level": {
         "combat": 2,
@@ -602,13 +602,13 @@
       }
     },
     {
-      "name": "Bureaucrat",
+      "name": "Бюрократ",
       "skills": {
-        "cool": 3,
-        "discipline": 3,
-        "knowledge": 2,
-        "negotiation": 2,
-        "vigilance": 3
+        "хладнокровие": 3,
+        "выдержка": 3,
+        "знание": 2,
+        "переговоры": 2,
+        "бдительность": 3
       },
       "power_level": {
         "combat": 0,
@@ -617,13 +617,13 @@
       }
     },
     {
-      "name": "Mechanic",
+      "name": "Механик",
       "skills": {
-        "athletics": 2,
-        "brawl": 1,
-        "computers": 1,
-        "mechanics": 4,
-        "resilience": 3
+        "атлетика": 2,
+        "ближний бой": 1,
+        "компьютеры": 1,
+        "механика": 4,
+        "стойкость": 3
       },
       "power_level": {
         "combat": 0,
@@ -632,12 +632,12 @@
       }
     },
     {
-      "name": "Hacker",
+      "name": "Хакер",
       "skills": {
-        "computers": 5,
-        "cool": 2,
-        "deception": 2,
-        "streetwise": 2
+        "компьютеры": 5,
+        "хладнокровие": 2,
+        "обман": 2,
+        "уличная интуиция": 2
       },
       "power_level": {
         "combat": 0,
@@ -646,13 +646,13 @@
       }
     },
     {
-      "name": "Criminal Tough",
+      "name": "Матерый преступник",
       "skills": {
-        "brawl": 2,
-        "coercion": 3,
-        "resilience": 3,
-        "skulduggery": 3,
-        "streetwise": 2
+        "ближний бой": 2,
+        "запугивание": 3,
+        "стойкость": 3,
+        "жульничество": 3,
+        "уличная интуиция": 2
       },
       "power_level": {
         "combat": 0,
@@ -661,15 +661,15 @@
       }
     },
     {
-      "name": "Investigator",
+      "name": "Следователь",
       "skills": {
-        "charm": 2,
-        "coercion": 2,
-        "discipline": 3,
-        "perception": 3,
-        "streetwise": 3,
-        "survival": 3,
-        "vigilance": 3
+        "обаяние": 2,
+        "запугивание": 2,
+        "выдержка": 3,
+        "внимание": 3,
+        "уличная интуиция": 3,
+        "выживание": 3,
+        "бдительность": 3
       },
       "power_level": {
         "combat": 0,
@@ -678,14 +678,14 @@
       }
     },
     {
-      "name": "Wrangler/Survivalist",
+      "name": "Ковбой/Выживальщик",
       "skills": {
-        "athletics": 4,
-        "coordination": 2,
-        "perception": 3,
-        "ranged": 2,
-        "riding": 3,
-        "survival": 4
+        "атлетика": 4,
+        "координация": 2,
+        "внимание": 3,
+        "дальний бой": 2,
+        "верховая езда": 3,
+        "выживание": 4
       },
       "power_level": {
         "combat": 0,
@@ -694,13 +694,13 @@
       }
     },
     {
-      "name": "Cop/Town Guard",
+      "name": "Полицейский/Городской стражник",
       "skills": {
-        "coercion": 2,
-        "driving": 2,
-        "leadership": 2,
-        "melee": 2,
-        "ranged": 2
+        "запугивание": 2,
+        "вождение": 2,
+        "лидерство": 2,
+        "ближний бой": 2,
+        "дальний бой": 2
       },
       "power_level": {
         "combat": 1,
@@ -711,166 +711,166 @@
   ],
   "talents": [
     {
-      "talent": "Adversary 1",
+      "talent": "Противник 1",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
+      "desc": "Пассивный; Усильте сложность всех боевых проверок, нацеленных на этого персонажа, один раз за каждый ранг этого таланта."
     },
     {
-      "talent": "Adversary 2",
+      "talent": "Противник 2",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
+      "desc": "Пассивный; Усильте сложность всех боевых проверок, нацеленных на этого персонажа, один раз за каждый ранг этого таланта."
     },
     {
-      "talent": "Adversary 3",
+      "talent": "Противник 3",
       "power_level": {
         "combat": 2,
         "social": 0,
         "general": 0
       },
-      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
+      "desc": "Пассивный; Усильте сложность всех боевых проверок, нацеленных на этого персонажа, один раз за каждый ранг этого таланта."
     },
     {
-      "talent": "Animal Companion",
+      "talent": "Животное-спутник",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
       },
-      "desc": "Passive; Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM\u2019s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances.  As long as the bond persists, the animal follows your character, and you dictate the animal\u2019s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character\u2019s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.  For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size).  This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the \u201canimal\u201d to be a robot or drone, for example."
+      "desc": "Пассивный; Персонаж создаёт связь с одним животным, одобренным ведущим. Животное должно иметь фигуру 0 (не крупнее собаки средних размеров). Связь существует так долго, как решит персонаж, хотя по решению ведущего связь может быть разорвана из-за грубого обращения или других обстоятельств. Пока существует такая связь, животным, следующим за персонажем, можно управлять (заметим, что животное привязано к персонажу, но тот не имеет над ним полной власти, поэтому зверь может совершать неугодные действия — царапать мебель, съедать пайки и метить территорию). Один раз в раунд в структурированных сценах персонаж может потратить один манёвр, чтобы во время своего хода совершить животным одно действие и один манёвр. Чтобы сделать это, животное должно находиться в пределах дистанции, позволяющей видеть и слышать персонажа (обычно средняя дистанция). В противном случае животное не участвует в текущей сцене. Особенности его поведения зависят от вас и решений ведущего. За каждый дополнительный ранг таланта персонаж увеличивает фигуру животного-спутника на один (это может означать, что персонаж получает нового спутника или старый спутник вырос в размерах). В зависимости от игрового мира талант может изменяться. Конечно, животное-спутник может присутствовать во всех игровых мирах, но в футуристическом мире в качестве «животного» может выступать робот или дрон."
     },
     {
-      "talent": "Barrel Roll",
+      "talent": "«Бочка»",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental, Out of Turn); Your character can only use this talent while piloting a starfighter or airplane of Silhouette 3 or less. When your vehicle suffers a hit from a ranged combat check, after damage is calculated but before armor is applied, your character may have their vehicle suffer 3 system strain to use this talent. Then, reduce the damage suffered by a number equal to their ranks in Piloting."
+      "desc": "Активный (свободное действие, вне хода); Персонаж может использовать этот талант, только управляя космическим истребителем или самолётом с фигурой не больше 3. Когда против его транспорта совершается проверка дальнего боя, после подсчёта получаемого урона, но до применения брони персонаж может добавить транспорту перегрузку систем 3, чтобы использовать этот талант и снизить получаемый урон на число, равное его рангу Пилотирования."
     },
     {
-      "talent": "Berserk",
+      "talent": "Берсерк",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Activation: Active (Maneuver); Once per encounter, your character may use this talent.  Until the end of the encounter or until they are incapacitated, your character adds \udb88\udeb3 \udb88\udeb4 \udb88\udeb4 to all melee combat checks they make. However, opponents add \udb88\udeb3 to all combat checks targeting your character. While berserk, your character cannot make ranged combat checks.  At the end of the encounter (or when they are incapacitated), your character suffers 6 strain."
+      "desc": "Активный (манёвр); Талант используется один раз за сцену. До конца сцены или пока не будет выведен из строя, персонаж получает \udb88\udeb3 \udb88\udeb4 \udb88\udeb4 ко всем проверкам ближнего боя. Однако его противники добавляют \udb88\udeb3 ко всем боевым проверкам против него. Будучи берсерком, персонаж не может совершать проверки дальнего боя. В конце сцены (или когда будет выведен из строя) персонаж получает 6 усталости."
     },
     {
-      "talent": "Brilliant Casting",
+      "talent": "Блестящее заклинание",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "page 95"
+      "desc": "Когда ваш персонаж использует любое заклинание, можно потратить одно очко сюжета, чтобы добавить к результату столько 󲊴, сколько рангов Знания у вашего персонажа"
     },
     {
-      "talent": "Clever Retort",
+      "talent": "Остроумный ответ",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental, Out of Turn); Once per encounter, your character may use this talent to add automatic \udb88\udeb1 \udb88\udeb1 to another character\u2019s social skill check"
+      "desc": "Активный (свободное действие, вне хода); Один раз за сцену персонаж может использовать этот талант, чтобы автоматически добавить \udb88\udeb1 \udb88\udeb1 к проверке социального навыка другого персонажа."
     },
     {
-      "talent": "Coordinated Assault 3",
+      "talent": "Скоординированная атака 3",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Maneuver); Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add \udb88\udeb4 to all combat checks they make until the end of your character\u2019s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first."
+      "desc": "Активный (манёвр); Один раз за ход персонаж может использовать этот талант, чтобы союзники, стоящие с ним вплотную, в количестве, равном его рангу Лидерства, получили 󲊴 к совершаемым ими боевым проверкам до начала следующего хода персонажа. Дистанция манёвра увеличивается на один диапазон за каждый ранг Скоординированной атаки после первого."
     },
     {
-      "talent": "Distinctive Style",
+      "talent": "Характерный стиль",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
       },
-      "desc": "Active (Incidental); When making a Computers check to hack a system or break into a secured network, before rolling, your character may use this talent to add \udb88\udeb3 \udb88\udeb3 \udb88\udeb1 \udb88\udeb1 to the results. Tier: 3 If you are using the optional hacking rules on page 232 and your check generates \udb88\udeb1 \udb88\udeb1, your GM should spend it on the I Know You! option in Table I.2-22 on page 234."
+      "desc": "Перед совершением проверки Компьютеров для взлома системы или проникновения в защищённую сеть персонаж может добавить к её результату \udb88\udeb3 \udb88\udeb3 \udb88\udeb1 \udb88\udeb1 Если вы используете дополнительные правила по взлому (стр. 232) и в процессе проверки выпадает \udb88\udeb1 \udb88\udeb1, ведущий должен потратить их и задействовать вариант Я тебя знаю! (Таблица III.2-22, стр. 234)."
     },
     {
-      "talent": "Dual Wielder",
+      "talent": "Обоерукий",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Maneuver); Your character may use this talent to decrease the difficulty of the next combined combat check (see Two-Weapon Combat, on page 108) they make during the same turn by one."
+      "desc": "Активный (манёвр); Один раз в раунд персонаж может использовать этот талант, чтобы снизить сложность следующей комбинированной боевой проверки (смотрите Сражение с двумя оружиями, стр. 108), сделанной в этом же ходу, на один."
     },
     {
-      "talent": "Duelist",
+      "talent": "Дуэлянт",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Passive; Your character adds \udb88\udeb8 to their melee combat checks while engaged with a single opponent. Your character adds \udb88\udeb8 to their melee combat checks while engaged with three or more opponents."
+      "desc": "Пассивный; Во время проверок ближнего боя только с одним противником персонаж добавляет \udb88\udeb8 ко всем проверкам ближнего боя. Если же персонаж находится в ближнем бою с тремя и более противниками, то он добавляет \udb88\udeb8 ко всем проверкам ближнего боя."
     },
     {
-      "talent": "Elementalist",
+      "talent": "Элементалист",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "page 95"
+      "desc": "Приобретая талант, выберите один из эффектов атакующего заклинания (и элемент): Огонь (огонь), Лёд (вода), Удар (земля) или Молния (воздух). Кода ваш персонаж использует заклинание Атака, он всегда добавляет выбранный эффект к заклинанию, не повышая сложность. К сожалению, вы никогда не сможете использовать остальные три дополнительные эффекта, когда произносите заклинания."
     },
     {
-      "talent": "Explosive Casting",
+      "talent": "Заклинание взрыва",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "page 96"
+      "desc": "Когда ваш персонаж использует заклинание Атака, вы можете считать свойство заклинания Взрыв равным удвоенному значению вашего ранга Знания. Кроме того, вы можете потратить 1 Очко Сюжета, и активировать это свойство Взрыв при подсчёте результата проверки, вместо траты \udb88\udeb4, как обычно."
     },
     {
-      "talent": "Face of the Wild",
+      "talent": "Первобытный лик",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
       },
-      "desc": "page 97"
+      "desc": "Когда ваш персонаж накладывает заклинание Изменения на себя, используя навык Природы, вы можете потратить одно очко сюжета, чтобы эффект заклинания действовал до конца сцены, без необходимости тратить манёвр концентрации в начале хода, как обычно."
     },
     {
-      "talent": "Field Commander",
+      "talent": "Полевой командир",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
       },
-      "desc": "Active (Action); Your character may use this talent to make an Average (\udb88\udeb7 \udb88\udeb7) Leadership check. If successful, a number of allies equal to your character\u2019s Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter."
+      "desc": "Активный (действие); Персонаж может совершить обычную (\udb88\udeb7 \udb88\udeb7) проверку Лидерства. Если проверка успешна, союзники в количестве, равном Харизме персонажа, могут незамедлительно получить одну усталость, чтобы совершить один манёвр (вне хода). Если возникает вопрос относительно порядка выполнения манёвров союзниками, последнее слово за вашим персонажем"
     },
     {
-      "talent": "Flicker Step",
+      "talent": "Мерцание",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
       },
-      "desc": "page 97"
+      "desc": "Когда ваш персонаж использует магический навык Магия для наложения заклинания, вы можете потратить \udb88\udeb4 \udb88\udeb4 \udb88\udeb4 или \udb88\udeb5, чтобы мгновенно исчезнуть и появиться в любом месте в пределах «длинной» дистанции."
     },
     {
-      "talent": "Grenadier",
+      "talent": "Гренадер",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental); When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon\u2019s Blast quality, instead of spending \udb88\udeb4 (even if the attack misses). In addition, your character treats grenades as having a range of medium."
+      "desc": "Активный (свободное действие); При совершении проверки дальнего боя оружием со свойством Взрыв вы можете задействовать по свойство, потратив одно очко сюжета, а не 󲊴 (даже если атака промахнулась). Кроме того, дистанция броска гранаты для гренадёра считается средней."
     },
     {
       "talent": "Hamstring Shot",
@@ -906,7 +906,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend \udb88\udeb2 or \udb88\udeb1 \udb88\udeb1 \udb88\udeb1 from the attacker\u2019s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon\u2019s base damage, plus any damage from applicable talents or abilities. Your character can\u2019t use this talent if the original attack incapacitates them."
+      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend \udb88\udeb2 or \udb88\udeb1 \udb88\udeb1 \udb88\udeb1 from the attacker\u2019s check to use this talent. Then, your character automatically hits the attacker once with a ближний бой or Melee weapon your character is wielding. The hit deals the weapon\u2019s base damage, plus any damage from applicable talents or abilities. Your character can\u2019t use this talent if the original attack incapacitates them."
     },
     {
       "talent": "Improved Scathing Tirade",
@@ -1178,7 +1178,7 @@
         "general": 0
       },
       "desc": "Creatures and wild animals attack with their claws, teeth, tusks, or hooves. We treat these attacks as equipment, and have provided a few options here. These profiles represent creatures that are human-sized or smaller.",
-      "weapons": "Teeth and claws (Brawl; Damage +2; Critical 3; Range [Engaged]; Vicious 1) or hooves and tusks (Brawl; Damage +2; Critical 4; Range [Engaged]; Knockdown, Stun 2).",
+      "weapons": "Teeth and claws (ближний бой; Damage +2; Critical 3; Range [Engaged]; Vicious 1) or hooves and tusks (ближний бой; Damage +2; Critical 4; Range [Engaged]; Knockdown, Stun 2).",
       "equipment": "None."
     },
     {
@@ -1189,7 +1189,7 @@
         "general": 0
       },
       "desc": "Large creatures, as with small ones, treat their attacks as equipment. These profiles represent creatures much larger than a human, such as an elephant or large dinosaur.",
-      "weapons": "Gaping maw or razor claws (Brawl; Damage +4; Critical 2; Range [Engaged]; Vicious 3), tentacles or thundering hooves (Brawl; Damage +5; Critical 4; Range [Engaged]; Knockdown, Concussive 1).",
+      "weapons": "Gaping maw or razor claws (ближний бой; Damage +4; Critical 2; Range [Engaged]; Vicious 3), tentacles or thundering hooves (ближний бой; Damage +5; Critical 4; Range [Engaged]; Knockdown, Concussive 1).",
       "equipment": "None."
     },
     {
@@ -1214,7 +1214,7 @@
         "general": 0
       },
       "desc": "In every setting, there are multitudes of average people simply living out their lives. This equipment package is for any character who has no reason to have weapons, armor, or specialized gear.",
-      "weapons": "Fists (Brawl; Damage +0; Critical 6; Range [Engaged]; Disorient 1, Knockdown).",
+      "weapons": "Fists (ближний бой; Damage +0; Critical 6; Range [Engaged]; Disorient 1, Knockdown).",
       "equipment": "Clothing appropriate to the specific era, average coin purse or wallet."
     },
     {
@@ -1225,7 +1225,7 @@
         "general": 1
       },
       "desc": "Those who build, repair, work outdoors, and work with their hands have access to various tools or scrap that can be used as a weapon in a pinch.",
-      "weapons": "Improvised brawling weapon (Brawl; Damage +1; Critical 5; Range [Engaged]; Disorient 2, Inferior).",
+      "weapons": "Improvised ближний бойing weapon (ближний бой; Damage +1; Critical 5; Range [Engaged]; Disorient 2, Inferior).",
       "equipment": "Heavy clothing (+1 soak), tool belt full of tools (add \udb88\udeb3to checks this character makes to repair of fix something), wallet.",
       "defense": {
         "soak": 1
@@ -1240,7 +1240,7 @@
       },
       "desc": "Travelers may be traders, shepherds, or wanderers who spend their time walking and sleeping outdoors.",
       "weapons": "Walking staff (Melee [Heavy]; Damage +2; Critical 4; Range [Engaged]; Defensive 1, Disorient 2).",
-      "equipment": "Heavy cloak (1 defense), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), meager coin purse or wallet.",
+      "equipment": "Heavy cloak (1 defense), выживание pack (removes \udb88\udeb8 from выживание or внимание checks this character makes), meager coin purse or wallet.",
       "defense": {
         "ranged defense": 1,
         "melee defense": 1
@@ -1292,7 +1292,7 @@
       },
       "desc": "The ranged warrior array is ideal for medieval archers, modern infantry, and futuristic soldiers. It can also be used to equip characters who work in the wilderness.",
       "weapons": "Two-handed ranged weapon (Ranged; Damage 8; Critical 3; Range [Long]), one-handed backup weapon (Melee [Light]; Damage +2; Critical 3; Range [Engaged]; Vicious 1).",
-      "equipment": "Reinforced uniform or light armor (+1 soak), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), 1 painkiller.",
+      "equipment": "Reinforced uniform or light armor (+1 soak), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), выживание pack (removes \udb88\udeb8 from выживание or внимание checks this character makes), 1 painkiller.",
       "defense": {
         "soak": 1
       }
@@ -1365,7 +1365,7 @@
         "general": 0
       },
       "desc": "Adventurers journey into danger with a smile on their face and a torch in their hand. This could represent an explorer, an airship crewmember, or even a pirate.",
-      "weapons": "One-handed ranged weapon (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Accurate 1), backup brawling weapon (Brawl; Damage +1; Critical 4; Range [Engaged]; Disorient 3).",
+      "weapons": "One-handed ranged weapon (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Accurate 1), backup ближний бойing weapon (ближний бой; Damage +1; Critical 4; Range [Engaged]; Disorient 3).",
       "equipment": "Leather vest (+1 soak), backpack, length of rope, torch or other light source, and well-worn hat.",
       "defense": {
         "soak": 1
@@ -1394,7 +1394,7 @@
       },
       "desc": "Some individuals hunt from elevated tree-stands or blinds, waiting for prey to happen into range. This array could also be used for a sharpshooter or assassin.",
       "weapons": "Long-ranged hunting weapon (Ranged [Heavy]; Damage 9; Critical 3; Range [Extreme]; Accurate 1, Limited Ammo 2; reduce the difficulty of combat checks made at long or extreme range by 1).",
-      "equipment": "Camouflage (2 defense, add \udb88\udeb8 to Stealth checks made by this character), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo).",
+      "equipment": "Camouflage (2 defense, add \udb88\udeb8 to Stealth checks made by this character), выживание pack (removes \udb88\udeb8 from выживание or внимание checks this character makes), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo).",
       "defense": {
         "ranged defense": 2,
         "melee defense": 2
@@ -1423,7 +1423,7 @@
       },
       "desc": "Combat pilots or operators of air vehicles must always be ready to land in hostile territory. In the appropriate setting, the flight outfit can be sealed against vacuum.",
       "weapons": "Concealable ranged weapon (Ranged [Light]; Damage 5; Critical 4; Range [Short]).",
-      "equipment": "Flight outfit, emergency survival kit (removes \udb88\udeb8 from Survival or Perception checks this character makes), 1 painkiller."
+      "equipment": "Flight outfit, emergency выживание kit (removes \udb88\udeb8 from выживание or внимание checks this character makes), 1 painkiller."
     },
     {
       "name": "Flashy Outlaw",
