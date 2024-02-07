@@ -870,16 +870,16 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Активный (свободное действие); При совершении проверки дальнего боя оружием со свойством Взрыв вы можете задействовать по свойство, потратив одно очко сюжета, а не 󲊴 (даже если атака промахнулась). Кроме того, дистанция броска гранаты для гренадёра считается средней."
+      "desc": "Активный (свободное действие); При совершении проверки дальнего боя оружием со свойством Взрыв вы можете задействовать по свойство, потратив одно очко сюжета, а не \uDB88\uDEB4 (даже если атака промахнулась). Кроме того, дистанция броска гранаты для гренадёра считается средней."
     },
     {
-      "talent": "Hamstring Shot",
+      "talent": "Обездвиживающий выстрел",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Action); Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target\u2019s soak). The target is immobilized until the end of its next turn."
+      "desc": "Активный (действие); Один раз за раунд персонаж может использовать этот талант, чтобы совершить проверку дальнего боя против одной цели, не являющейся транспортом, находящейся в пределах дистанции используемого оружия. Если проверка успешна, уменьшите урон, наносимый атакой, в два раза (прежде чем примените поглощение цели). Цель обездвижена до конца своего следующего хода."
     },
     {
       "talent": "Improved Field Commander",
@@ -891,137 +891,137 @@
       "desc": "Passive; When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character\u2019s Presence.  In addition, you may spend \udb88\udeb5 to allow one ally to suffer 1 strain to perform an action, instead of a maneuver."
     },
     {
-      "talent": "Improved Inspiring Rhetoric",
+      "talent": "Полевой командир (Улучшенный)",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
       },
-      "desc": "Active (Action); Your character may use this talent to make an Average (\udb88\udeb7 \udb88\udeb7) Leadership check. For each \udb88\udeb3 the check generates, one ally within short range heals one strain. For each \udb88\udeb4, one ally benefiting from Inspiring Rhetoric heals one additional strain. Allies affected by your character\u2019s Inspiring Rhetoric add \udb88\udeb8 to all skill checks they make for a number of rounds equal to your character's rank in Leadership."
+      "desc": "Пассивный; Полевой командир. Применяя талант Полевой командир, персонаж воздействует на число союзников, равное удвоенному рейтингу его Харизмы. Кроме того, вы можете потратить \uDB88\uDEB5 , чтобы дать возможность одному союзнику получить 1 усталость и выполнить действие вместо манёвра."
     },
     {
-      "talent": "Improved Parry",
-      "power_level": {
-        "combat": 1,
-        "social": 0,
-        "general": 0
-      },
-      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend \udb88\udeb2 or \udb88\udeb1 \udb88\udeb1 \udb88\udeb1 from the attacker\u2019s check to use this talent. Then, your character automatically hits the attacker once with a ближний бой or Melee weapon your character is wielding. The hit deals the weapon\u2019s base damage, plus any damage from applicable talents or abilities. Your character can\u2019t use this talent if the original attack incapacitates them."
-    },
-    {
-      "talent": "Improved Scathing Tirade",
+      "talent": "Воодушевляющая речь (Улучшенный)",
       "power_level": {
         "combat": 0,
         "social": 1,
         "general": 0
       },
-      "desc": "Active (Action); Your character may use this talent to make an Average (\udb88\udeb7 \udb88\udeb7) Coercion check. For each \udb88\udeb3 the check generates, one enemy within short range suffers 1 strain. For each \udb88\udeb4, one enemy affected by Scathing Tirade suffers 1 additional strain. Enemies affected by your character\u2019s Scathing Tirade add \udb88\udeb8 to all skill checks they make for a number of rounds equal to your character\u2019s ranks in Coercion."
+      "desc": "Активный (действие); Персонаж может совершить обычную (\uDB88\uDEB7 \uDB88\uDEB7) проверку Лидерства. За каждый выпавший \uDB88\uDEB3 один союзник в пределах короткой дистанции теряет одну усталость. За каждый \uDB88\uDEB4,один союзник, на которого действует Воодушевляющая речь, теряет одну дополнительную усталость. Союзники, на которых воздействует Воодушевляющая речь, добавляют ▨ ко всем проверкам навыков в течение числа раундов, равного рангу Лидерства вашего персонажа."
     },
     {
-      "talent": "Indomitable",
-      "power_level": {
-        "combat": 1,
-        "social": 1,
-        "general": 0
-      },
-      "desc": "Active (Incidental, Out of Turn); Once per encounter, when your character would be incapacitated due to exceeding their wound or strain threshold, you may spend a Story Point to use this talent. Then, your character is not incapacitated until the end of their next turn. If your character reduces their strain or wounds to below their threshold before the end of their next turn, they are not incapacitated."
-    },
-    {
-      "talent": "Lucky Strike",
+      "talent": "Парирование (Улучшенный)",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental); When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character\u2019s ranks in that characteristic to one hit of the combat check."
+      "desc": "Активный (свободное действие, вне хода); Когда персонаж получает попадание атаки ближнего боя и использует Парирование для снижения урона от этого попадания, то после осуществления этой атаки персонаж может потратить \uDB88\uDEB2 или \uDB88\uDEB1 \uDB88\uDEB1 \uDB88\uDEB1 из результатов проверки противника для использования этого таланта. Тогда персонаж автоматически попадает по атакующему Грубой силой или оружием, используемым для навыка Ближний бой. Попадание наносит базовый урон оружия, а также любой урон от применимых в этой ситуации талантов или способностей. Персонаж не может использовать этот талант, если исходная атака вывела его из строя."
     },
     {
-      "talent": "Master",
+      "talent": "Неукротимый",
       "power_level": {
         "combat": 1,
         "social": 1,
-        "general": 1
+        "general": 0
       },
-      "desc": "Active (Incidental); When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of Easy (\udb88\udeb7)."
+      "desc": "Активный (свободное действие, вне хода); Один раз за сцену, в ситуации, когда ваш персонаж должен выйти из строя из-за превышения порога ран или усталости, вы можете использовать этот талант и потратить очко сюжета, чтобы персонаж не вышел из строя до конца своего следующего хода. Если он за это время снижает усталость или раны до значения ниже порога, то не выходит из строя."
     },
     {
-      "talent": "Masterful Casting",
+      "talent": "Счастливое попадание",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "page 97"
+      "desc": "Активный (свободное действие); Купив этот талант, выберите одну характеристику. После совершения успешной боевой проверки вы можете потратить одно очко сюжета, чтобы использовать этот талант и добавить урон, равный рейтингу этой характеристики, к одному попаданию этой проверки."
     },
     {
-      "talent": "Natural",
+      "talent": "Мастер",
       "power_level": {
         "combat": 1,
         "social": 1,
         "general": 1
       },
-      "desc": "Active (Incidental); When your character purchases this talent, choose two skills. Once per session, your character may use this talent to reroll one skill check that uses one of those two skills."
+      "desc": "Активный (свободное действие); Купив этот талант, выберите один навык. Один раз за раунд персонаж может получить 2 усталости, чтобы использовать этот талант и снизить сложность следующей проверки этого навыка на два, минимум до Лёгкой (\uDB88\uDEB7)."
     },
     {
-      "talent": "Parry 3",
+      "talent": "Мастерское заклинание",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check, after damage is calculated but before soak is applied (so immediately after Step 3 of Perform a Combat check, page 102), your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Parry. This talent can only be used once per hit, and your character needs to be wielding a Melee weapon."
+      "desc": "Когда ваш персонаж накладывает заклинание, можно использовать этот талант, чтобы потратить \uDB88\uDEB5 из результата проверки, чтобы применить три разных свойства или эффекта заклинания вместо одного. Эти свойства должны быть из тех, что вызываются тратой \uDB88\uDEB4 или \uDB88\uDEB5."
     },
     {
-      "talent": "Quick Draw",
+      "talent": "Одаренность",
+      "power_level": {
+        "combat": 1,
+        "social": 1,
+        "general": 1
+      },
+      "desc": "Активный (свободное действие); Купив этот талант, выберите два навыка. Один раз за игровую встречу вы можете применить талант, чтобы перебросить одну проверку, использующую один из этих двух навыков."
+    },
+    {
+      "talent": "Парирование 3",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Активный (свободное действие, вне хода); Когда персонаж получает попадание в результате проверки ближнего боя, после подсчёта получаемого урона, но до применения поглощения (т. е. сразу после 3-го шага совершения боевой проверки, стр. 102), персонаж может получить 3 усталости, чтобы снизить урон от попадания на 2 плюс его ранг в Парировании Талант можно использовать только раз за попадание, а персонаж должен использовать оружие ближнего бои."
+    },
+    {
+      "talent": "Выхватывание",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental); Once per round on your character\u2019s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon\u2019s Prepare rating by one, to a minimum of one."
+      "desc": "Активный (свободное действие); Один раз за раунд, в свой ход, персонаж может использовать этот талант, чтобы достать/убрать легкодоступное оружие или предмет свободным действием. Также этот талант уменьшает свойство оружия Подготовка на один, минимум до 1."
     },
     {
-      "talent": "Ruinous Repartee",
+      "talent": "Убийственная колкость",
       "power_level": {
         "combat": 0,
         "social": 2,
         "general": 0
       },
-      "desc": "Active (Action); Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character\u2019s Presence, plus one additional strain per \udb88\udeb3. Your character heals strain equal to the strain inflicted."
+      "desc": "Активный (действие); Один раз за сцену ваш персонаж может использовать этот талант, чтобы выбрать одного персонажа в пределах средней дистанции (или в пределах слышимости) и совершить встречную проверку Запугивания или Обаяния против Выдержки. В случае успеха цель получает усталость в размере, равном двукратному рейтингу Харизмы вашего персонажа, плюс одну дополнительную усталость за каждый \uDB88\uDEB3. Ваш персонаж лечит столько усталости, сколько причинил."
     },
     {
-      "talent": "Second Wind 4",
+      "talent": "Второе дыхание 4",
       "power_level": {
         "combat": 0,
         "social": 1,
         "general": 0
       },
-      "desc": "Active (Incidental); Once per encounter, your character may use this talent to heal an amount of strain equal to their ranks in Second Wind."
+      "desc": "Активный (свободное действие); Один раз за сцену персонаж может использовать этот талант, чтобы вылечить усталость в размере, равном рангу Второго дыхания."
     },
     {
-      "talent": "Strength of Faith",
+      "talent": "Сила веры",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
       },
-      "desc": "page 97"
+      "desc": "Один раз за игровую встречу, ваш персонаж может использовать этот талант и добавить \uDB88\uDEB3 в количестве, равном рангам в навыке Выдержка и \uDB88\uDEB4 в количестве, равном рангам Воли, к результату следующей проверки магического навыка Вера, который должен быть совершен в этом же ходу."
     },
     {
-      "talent": "Surgeon 2",
+      "talent": "Хирург 2",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
       },
-      "desc": "Passive; When your character makes a Medicine check to heal wounds, the target heals one additional wound per rank of Surgeon."
+      "desc": "Пассивный; Совершая проверку Медицины для исцеления ран, персонаж исцеляет на одну рану больше за каждый ранг таланта."
     }
   ],
   "abilities": [
     {
-      "ability": "Aquatic (or Amphibious)",
-      "desc": "This adversary may breathe underwater and never suffers movement penalties for traveling through water, but cannot survive on land. (You may remove \"cannot survive on land\" to make this \"Amphibious\" instead.)",
-      "ex": "Fish or sea-going creatures",
+      "ability": "Водный (или Амфибия)",
+      "desc": "Этот противник может дышать под водой и никогда не получает штрафов за перемещение по воде, но не может выжить на суше. (Вы можете удалить «не может выжить на суше», чтобы сделать Амфибию.)",
+      "ex": "Рыбы или морские существа",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1029,9 +1029,9 @@
       }
     },
     {
-      "ability": "Flyer",
-      "desc": "This adversary can fly; see page 100 of the Genesys Core Rulebook.",
-      "ex": "Flying creatures",
+      "ability": "Летающий",
+      "desc": "Этот противник может летать; см. стр. 100 Основной книги правил Genesys.",
+      "ex": "Летающие существа",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1039,9 +1039,9 @@
       }
     },
     {
-      "ability": "Ghostly",
-      "desc": "This adversary may move over or through terrain (including doors and walls) without penalty. Halve the damage dealt to this adversary before applying soak, unless the attack came from a magical or supernatural source such as a spell, a blessed weapon, or another spirit.",
-      "ex": "Ghosts, spirits, or ethereal beings",
+      "ability": "Призрачный",
+      "desc": "Этот противник может двигаться по местности или сквозь нее (включая двери и стены) без штрафа. Уменьшите вдвое урон, нанесенный этому противнику, перед применением поглощения, если только атака не от магического или сверхъестественного источника, такого как заклинание, благословенное оружие или др.",
+      "ex": "Призраки, духи или эфирные существа",
       "power_level": {
         "combat": 2,
         "social": 0,
@@ -1049,9 +1049,9 @@
       }
     },
     {
-      "ability": "Know Your Foe",
-      "desc": "If this adversary knows an opponent's (pick one facet) Motivation, when this adversary inflicts strain on the opponent, the opponent suffers 3 additional strain.",
-      "ex": "Sentient rivals and nemeses designed for social encounters",
+      "ability": "Знай своего врага",
+      "desc": "Если этот противник знает Мотивацию оппонента (выберите один аспект), когда этот противник влияет на усталость оппонента, оппонента получает 3 дополнительные усталости.",
+      "ex": "Разумные соперники и главари, созданные для социальных сцен",
       "power_level": {
         "combat": 0,
         "social": 1,
@@ -1059,9 +1059,9 @@
       }
     },
     {
-      "ability": "Loyal Followers",
-      "desc": "Once per round when this adversary is targeted by a combat check, they may choose one ally within short range, and the attack then targets the ally instead of this adversary.",
-      "ex": "Nemesis leaders with fanatical or devoted followers",
+      "ability": "Верные последователи",
+      "desc": "Один раз за раунд, когда этот противник становится целью боевой проверки, он может выбрать одного союзника на короткой дистанции, и тогда атака будет нацелена на союзника, а не на этого противника.",
+      "ex": "Главари с фанатичными или преданными последователями",
       "power_level": {
         "combat": 1,
         "social": 0,
@@ -1069,9 +1069,9 @@
       }
     },
     {
-      "ability": "Mechanical (or Undead)",
-      "desc": "This adversary does not need to breathe, eat, or drink, and can survive in a vacuum and underwater. They are immune to poisons and toxins.",
-      "ex": "Robots, drones, or undead adversaries",
+      "ability": "Механический (или Нежить)",
+      "desc": "Этому противнику не нужно дышать, есть или пить, и он может выжить в вакууме и под водой. Они невосприимчивы к ядам и токсинам.",
+      "ex": "Роботы, дроны или нежить",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1079,9 +1079,9 @@
       }
     },
     {
-      "ability": "Mental Weakness",
-      "desc": "If an opponent knows the adversary's (pick one type) Motivation, when the opponent inflicts strain on the adversary, the adversary suffers 2 additional strain.",
-      "ex": "Any character with a pronounced character flaw",
+      "ability": "Психическая слабость",
+      "desc": "Если оппонента знает мотивацию противника (выберите один аспект), когда оппонента влияет на усталость противника, противник получает 2 дополнительные усталости.",
+      "ex": "Любой персонаж с выраженным недостатком характера",
       "power_level": {
         "combat": 0,
         "social": -1,
@@ -1089,9 +1089,9 @@
       }
     },
     {
-      "ability": "Ominous Reputation",
-      "desc": "When an opponent targets this adversary with a check, the opponent suffers 2 strain.",
-      "ex": "Powerful nemeses with a fearsome reputation",
+      "ability": "Зловещая репутация",
+      "desc": "Когда этот противник становится целью проверки оппонента, оппонент получает 2 усталости.",
+      "ex": "Сильные главари с устрашающей репутацией",
       "power_level": {
         "combat": 1,
         "social": 2,
@@ -1099,9 +1099,9 @@
       }
     },
     {
-      "ability": "One Step Ahead",
-      "desc": "Once per round, after an opponent performs an action or maneuver, you may spend one Story Point to have this adversary perform an action or maneuver as an out-of-turn incidental.",
-      "ex": "Powerful nemeses who combat the PCs alone",
+      "ability": "На шаг впереди",
+      "desc": "Один раз за раунд, после того как оппонента выполнит действие или маневр, вы можете потратить одно очко сюжета, чтобы этот противник выполнил действие или маневр вне очереди.",
+      "ex": "Могущественные главари, сражающиеся с ПИ в одиночку",
       "power_level": {
         "combat": 2,
         "social": 1,
@@ -1109,9 +1109,9 @@
       }
     },
     {
-      "ability": "Pack Fighter",
-      "desc": "If this adversary makes a successful combat check, the next ally making a combat check against the same target during the same round adds \udb88\udeb4 \udb88\udeb4 to the results.",
-      "ex": "Creatures that fight in groups",
+      "ability": "Серия ударов",
+      "desc": "Если этот противник совершает успешную боевую проверку, следующий союзник, совершивший боевую проверку по той же цели в течение того же раунда, добавляет \uDB88\uDEB4 \uDB88\uDEB4 к результатам.",
+      "ex": "Существа, сражающиеся группами",
       "power_level": {
         "combat": 1,
         "social": 0,
@@ -1119,9 +1119,9 @@
       }
     },
     {
-      "ability": "Pounce",
-      "desc": "Once per turn, while at short range this adversary may perform the move maneuver to engage a target as an incidental.",
-      "ex": "Fast creatures that can leap or lunge at foes",
+      "ability": "Наброситься",
+      "desc": "Один раз за ход, находясь на короткой дистанции, этот противник может выполнить маневр перемещения, чтобы атаковать случайную цель.",
+      "ex": "Быстрые существа, способные прыгать или бросаться на врагов",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1129,9 +1129,9 @@
       }
     },
     {
-      "ability": "Swarm",
-      "desc": "Halve the damage dealt to this adversary before applying soak, unless the attack has the Blast or Burn quality (regardless of whether the quality is activated).",
-      "ex": "A single profile representing a swarm of bugs or vermin",
+      "ability": "Рой",
+      "desc": "Уменьшите вдвое урон, нанесенный этому противнику, перед применением поглощения, если только атака не имеет свойство Взрыв или Жжение (независимо от того, активировано ли это свойство).",
+      "ex": "Один враг, представляющий рой жуков или паразитов",
       "power_level": {
         "combat": 1,
         "social": 0,
@@ -1139,9 +1139,9 @@
       }
     },
     {
-      "ability": "Tactical Direction",
-      "desc": "This adversary may spend a maneuver to direct one friendly minion group within medium range. That group may immediately perform a maneuver as an out-of-turn incidental or add \udb88\udeb8 to the next check they make.",
-      "ex": "Rivals and nemeses who lead or direct small groups",
+      "ability": "Тактическое решение",
+      "desc": "Этот противник может потратить маневр, чтобы направить одну группу дружественных приспешников на среднюю дистанцию. Эта группа может немедленно выполнить маневр вне очереди или добавить ▨ к следующей проверке, которую они делают.",
+      "ex": "Соперники и главари, которые возглавляют или руководят небольшими группами",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1149,9 +1149,9 @@
       }
     },
     {
-      "ability": "Environmental Vulnerability",
-      "desc": "When exposed to extreme heat, cold, or another environmental effect (pick one), this adversary adds \udb88\udeb8 \udb88\udeb8 to all skill checks it makes.",
-      "ex": "Creatures adapted to living in certain climates",
+      "ability": "Yязвимость к окружающей среде",
+      "desc": "При воздействии экстремальной жары, холода или другого воздействия окружающей среды (выберите одно) этот противник добавляет \uDB88\uDEB8 \uDB88\uDEB8 ко всем проверкам навыков, которые он делает.",
+      "ex": "Существа, приспособленные к жизни в определенном климате",
       "power_level": {
         "combat": -1,
         "social": -1,
@@ -1159,9 +1159,9 @@
       }
     },
     {
-      "ability": "Terrifying",
-      "desc": "At the start of the encounter, all opponents must make a Hard (\udb88\udeb7 \udb88\udeb7 \udb88\udeb7) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy.",
-      "ex": "Large monsters, creatures, and individuals who are incredibly frightening",
+      "ability": "Ужасающий",
+      "desc": "В начале схватки все противники должны пройти Cложную (\uDB88\uDEB7 \uDB88\uDEB7 \uDB88\uDEB7) проверку страха вне очереди, согласно стр. 243 Основных правил Genesys. Если в столкновении есть несколько источников страха, противники делают только одну проверку страха против самого ужасного врага.",
+      "ex": "Крупные монстры, существа и люди, которые пугают",
       "power_level": {
         "combat": 1,
         "social": 1,
@@ -1171,170 +1171,170 @@
   ],
   "equipment": [
     {
-      "name": "Small Beast or Creature",
+      "name": "Маленький зверь или существо",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Creatures and wild animals attack with their claws, teeth, tusks, or hooves. We treat these attacks as equipment, and have provided a few options here. These profiles represent creatures that are human-sized or smaller.",
-      "weapons": "Teeth and claws (ближний бой; Damage +2; Critical 3; Range [Engaged]; Vicious 1) or hooves and tusks (ближний бой; Damage +2; Critical 4; Range [Engaged]; Knockdown, Stun 2).",
-      "equipment": "None."
+      "desc": "Существа и дикие животные атакуют когтями, зубами, клыками или копытами. Мы рассматриваем такие атаки как от снаряжения и представляем несколько вариантов. Эти параметры изображают существ размером с человека или меньше.",
+      "weapons": "Зубы и когти (Грубая сила; урон +2; крит. 3; дистанция [вплотную]; Высококритичное 1) или копыта и клыки (Грубая сила; урон +2; крит. 4; дистанция [вплотную]; Нокдаун, Оглушение 2).",
+      "equipment": "Нет."
     },
     {
-      "name": "Large Beast or Creature",
+      "name": "Большой зверь или существо",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Large creatures, as with small ones, treat their attacks as equipment. These profiles represent creatures much larger than a human, such as an elephant or large dinosaur.",
-      "weapons": "Gaping maw or razor claws (ближний бой; Damage +4; Critical 2; Range [Engaged]; Vicious 3), tentacles or thundering hooves (ближний бой; Damage +5; Critical 4; Range [Engaged]; Knockdown, Concussive 1).",
-      "equipment": "None."
+      "desc": "Атаки больших существа, как и маленьких, считаются так же, как от снаряжения. Эти параметры изображают существ намного крупнее человека, например, слона или большого динозавра.",
+      "weapons": "Зияющая пасть или острые когти (Грубая сила; урон +4; крит. 2; дистанция [вплотную]; Высококритичное 3), щупальца или громадные копыта (Грубая сила; урон +5; крит. 4; дистанция [вплотную]; Нокдаун, Ошеломление 1).",
+      "equipment": "Нет."
     },
     {
-      "name": "Manual Laborer",
+      "name": "Разнорабочий",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Manual laborers may be farmers, peasants, or others with access to pitchforks, shovels, sledgehammers, or other tools they can use as improvised weapons.",
-      "weapons": "Large farming implement (Melee [Heavy]; Damage +3; Critical 5; Range [Engaged]; Cumbersome 3, Inferior).",
-      "equipment": "Heavy clothes (+1 soak).",
+      "desc": "Работниками физического труда могут быть фермеры, крестьяне или другие лица, имеющие доступ к вилам, лопатам, кувалдам или другим инструментам, которые они могут использовать в качестве импровизированного оружия.",
+      "weapons": "Крупный сельскохозяйственный инструмент (Ближний бой [тяжелое]; урон +3; крит. 5; дистанция [вплотную]; Громоздкое 3, Низкопробное).",
+      "equipment": "Рабочая одежда (+1 поглощение).",
       "defense": {
         "soak": 1
       }
     },
     {
-      "name": "Basic Citizen",
+      "name": "Обычный горожанин",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "In every setting, there are multitudes of average people simply living out their lives. This equipment package is for any character who has no reason to have weapons, armor, or specialized gear.",
-      "weapons": "Fists (ближний бой; Damage +0; Critical 6; Range [Engaged]; Disorient 1, Knockdown).",
-      "equipment": "Clothing appropriate to the specific era, average coin purse or wallet."
+      "desc": "В любом сеттинге есть множество обычных людей, просто живущих своей жизнью. Этот набор снаряжения предназначен для любого персонажа, у которого нет причин иметь оружие, доспехи или специальное снаряжение.",
+      "weapons": "Кулаки (Грубая сила; урон +0; крит. 6; дистанция [вплотную]; Дезориентация 1, Нокдаун).",
+      "equipment": "Одежда, соответствующая эпохе, обычный кошелек или бумажник."
     },
     {
-      "name": "Blue-Collar Worker",
+      "name": "Рабочие («голубые воротнички»)",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
       },
-      "desc": "Those who build, repair, work outdoors, and work with their hands have access to various tools or scrap that can be used as a weapon in a pinch.",
-      "weapons": "Improvised ближний бойing weapon (ближний бой; Damage +1; Critical 5; Range [Engaged]; Disorient 2, Inferior).",
-      "equipment": "Heavy clothing (+1 soak), tool belt full of tools (add \udb88\udeb3to checks this character makes to repair of fix something), wallet.",
+      "desc": "Те, кто строит, ремонтирует, работает на открытом воздухе и работает своими руками, имеют доступ к различным инструментам или металлолому, который можно использовать как оружие.",
+      "weapons": "Импровизированное оружие (Грубая сила; урон +1; крит. 5; дистанция [вплотную]; Дезориентация 2, Низкопробное).",
+      "equipment": "Рабочая одежда (+1 поглощение), пояс с инструментами (добавьте \uDB88\uDEB3 к проверкам этого персонажа, чтобы что-то починить), бумажник.",
       "defense": {
         "soak": 1
       }
     },
     {
-      "name": "Traveler",
+      "name": "Путешественник",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Travelers may be traders, shepherds, or wanderers who spend their time walking and sleeping outdoors.",
-      "weapons": "Walking staff (Melee [Heavy]; Damage +2; Critical 4; Range [Engaged]; Defensive 1, Disorient 2).",
-      "equipment": "Heavy cloak (1 defense), выживание pack (removes \udb88\udeb8 from выживание or внимание checks this character makes), meager coin purse or wallet.",
+      "desc": "Путешественники могут быть торговцами, пастухами или путниками, которые проводят время, гуляя и ночуя на открытом воздухе.",
+      "weapons": "Посох (Ближний бой [тяжелое]; урон +2; крит. 4; дистанция [вплотную]; Оборонительное 1, Дезориентация 2).",
+      "equipment": "Плотный плащ (1 защита), набор для выживания (убирает \uDB88\uDEB8 из проверок Выживания или Внимания этого персонажа), скудный кошелек.",
       "defense": {
         "ranged defense": 1,
         "melee defense": 1
       }
     },
     {
-      "name": "Criminal",
+      "name": "Преступник",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
       },
-      "desc": "Muggers, bandits, and thieves are all possible criminals.",
-      "weapons": "Concealable melee weapon (Melee [Light]; Damage +1; Critical 2; Range [Engaged]; Pierce 2).",
-      "equipment": "Dark clothing (2 defense, adds \udb88\udeb8 to Stealth checks this character makes), thieves\u2019 tools (add \udb88\udeb4 to Skulduggery checks this character makes to open locks), backpack, rope with grappling hook.",
+      "desc": "Грабители, бандиты и воры — все возможные преступники.",
+      "weapons": "Скрытое холодное оружие (Ближний бой [легкое]; урон +1; крит. 2; дистанция [вплотную]; Проникающее 2).",
+      "equipment": "Темная одежда (2 защита, добавляет ▨ к проверкам Скрытности этого персонажа), набор отмычек (добавляет \uDB88\uDEB4 к проверкам Жульничества этого персонаж для взлома замков), рюкзак, веревка с крюком.",
       "defense": {
         "ranged defense": 2,
         "melee defense": 2
       }
     },
     {
-      "name": "Doctor",
+      "name": "Доктор",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
       },
-      "desc": "This equipment array can be used for any sort of doctor or medical professional, from ancient barber-surgeons to modern general practitioners.",
-      "weapons": "Sharp medical tool (Melee [Light]; Damage +0; Critical 1; Range [Engaged]).",
-      "equipment": "Clean clothing and face protection (add \udb88\udeb8 to Resilience checks made by this character to resist disease or airborne toxins), medicine kit (allows this character to perform Medicine checks to heal wounds and critical injuries without penalty; after this character makes a successful Medicine check to heal wounds, heal one additional wound), notebook."
+      "desc": "Этот набор можно использовать для любого врача или медицинского работника, начиная с древних цирюльников.",
+      "weapons": "Острый (Ближний бой [легкое]; урон +0; крит. 1; дистанция [вплотную]).",
+      "equipment": "Чистая одежда и защита для лица (добавьте ▨ к проверкам Стойкости этого персонажа, чтобы сопротивляться болезням или токсинам в воздухе), аптечка (позволяет выполнять проверки Медицины для лечения ран и крит. травм без штрафа; после успешной проверки Медицины для излечения ран, излечите еще одну), блокнот."
     },
     {
-      "name": "Noble",
+      "name": "Дворянин",
       "power_level": {
         "combat": 0,
         "social": 1,
         "general": 0
       },
-      "desc": "Well-dressed, well-to-do members of society, nobles are typical of the aristocracy.",
-      "weapons": "Dueling weapon (Melee [Light]; Damage +2; Critical 3; Range [Engaged]; Defensive 1).",
-      "equipment": "Fancy clothing (adds \udb88\udeb4 to any social skill checks this character makes), signet of authority (adds \udb88\udeb3 to any social checks this character makes when interacting with someone of a lesser social standing), important documents, full coin purse or wallet."
+      "desc": "Хорошо одетые, зажиточные члены общества, дворяне типичны для аристократии.",
+      "weapons": "Дуэльное оружие (Ближний бой [легкое]; урон +2; крит. 3; дистанция [вплотную]; Оборонительное 1).",
+      "equipment": "Модная одежда (добавляет \uDB88\uDEB4 к любым проверкам социальных навыков персонажа), печатка (добавляет \uDB88\uDEB3 к любым социальным проверкам персонажа при взаимодействии с кем-то с более низким социальным статусом), важные документы, полный кошелек или бумажник."
     },
     {
-      "name": "Basic Ranged Warrior",
+      "name": "Воин дальнего боя",
       "power_level": {
         "combat": 2,
         "social": 0,
         "general": 0
       },
-      "desc": "The ranged warrior array is ideal for medieval archers, modern infantry, and futuristic soldiers. It can also be used to equip characters who work in the wilderness.",
-      "weapons": "Two-handed ranged weapon (Ranged; Damage 8; Critical 3; Range [Long]), one-handed backup weapon (Melee [Light]; Damage +2; Critical 3; Range [Engaged]; Vicious 1).",
-      "equipment": "Reinforced uniform or light armor (+1 soak), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), выживание pack (removes \udb88\udeb8 from выживание or внимание checks this character makes), 1 painkiller.",
+      "desc": "Набор воинов дальнего боя подходит для средневековых лучников, современной пехоты и солдат будущего. Можно использовать для экипировки персонажей, работающих в дикой местности.",
+      "weapons": "Двуручное оружие дальнего боя (Дальний бой; урон 8; крит. 3; дистанция [длинная]), одноручное резервное оружие (Ближний бой [легкое]; урон +2; крит. 3; дистанция [вплотную]; Высококритичное 1).",
+      "equipment": "Усиленная броня (+1 поглощение), подготовленная перезарядка (может потратить маневр, чтобы перезарядить оружие дальнего боя, когда закончатся патроны), набор для выживания (убирает \uDB88\uDEB8 из проверок Выживания или Внимания этого персонажа), 1 обезболивающее.",
       "defense": {
         "soak": 1
       }
     },
     {
-      "name": "Heavy Ranged Warrior",
+      "name": "Тяжелый воин дальнего боя",
       "power_level": {
         "combat": 4,
         "social": 0,
         "general": 0
       },
-      "desc": "This equipment array represents warriors who use very powerful ranged weapons to support their fellows.  These might be scorpions or ballista in ancient times, modern machine guns, or futuristic rocket weapons.",
-      "weapons": "Heavy rapid-firing ranged weapon (Gunnery; Damage 12; Critical 3; Range [Long]; Auto-Fire, Cumbersome 3, Vicious 2) or powerful single-shot ranged weapon (Gunnery; Damage 20; Critical 2; Range [Extreme]; Blast 10, Breach 2, Cumbersome 4, Limited Ammo 1, Prepare 1).",
-      "equipment": "Heavy defensive armor (+3 soak), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), backpack.",
+      "desc": "Этот набор снаряжения воинов, которые используют мощное оружие дальнего боя для поддержки своих товарищей. Это могут быть скорпионы или баллисты в древности, современные пулеметы или футуристическое ракетное оружие.",
+      "weapons": "Тяжелое скорострельное оружие дальнего боя (Артиллерия; урон 12; крит. 3; дистанция [длинная]; Автоматическое, Громоздкое 3, Высококритичное 2) или мощное однозарядное оружие дальнего боя (Артиллерия; урон 20; крит. 2; дистанция [экстремальная]; Взрыв 10, Бронебойное 2, Громоздкое 4, Ограниченный боезапас 1, Подготовка 1).",
+      "equipment": "Тяжелая защитная броня (+3 поглощение), подготовленная перезарядка (может потратить маневр, чтобы перезарядить оружие дальнего боя, когда закончатся патроны), рюкзак.",
       "defense": {
         "soak": 3
       }
     },
     {
-      "name": "Basic Melee Warrior",
+      "name": "Воин ближнего боя",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "The basic melee warrior array can be used to equip the rank-and-file of ancient armies, modern riot cops, or even futuristic soldiers with powerful defenses.",
-      "weapons": "One-handed defensive melee weapon (Melee [Light]; Damage +2; Critical 4; Range [Engaged]; Defensive 1), shield (Melee [Light]; Damage +0; Critical 6; Range [Engaged]; Defensive 1, Deflection 1, Inaccurate 1, Knockdown).",
-      "equipment": "Medium armor (+2 soak), satchel.",
+      "desc": "Набор подходит для оснащения рядовых воинов древних армий, современных полицейских или солдат будущего мощной защитой.",
+      "weapons": "Одноручное защитное оружие ближнего боя (Ближний бой [легкое]; урон +2; крит. 4; дистанция [вплотную]; Оборонительное 1), щит (Ближний бой [легкое]; урон +0; крит. 6; дистанция [вплотную]; Оборонительное 1, Отражающее 1, Неточное 1, Нокдаун).",
+      "equipment": "Средняя броня (+2 поглощение), сумка.",
       "defense": {
         "soak": 2
       }
     },
     {
-      "name": "Heavy Melee Warrior",
+      "name": "Тяжелый воин ближнего боя",
       "power_level": {
         "combat": 2,
         "social": 0,
         "general": 0
       },
-      "desc": "This equips a character who relies on their armor to get close enough to bring heavy melee weapons to bear.  This could be used by a brave knight, a noble samurai, or a power-armored soldier with a plasma axe.",
-      "weapons": "Two-handed powerful melee weapon (Melee [Heavy]; Damage +4; Critical 3; Range [Engaged]; Cumbersome 3, Pierce 2, Vicious 1) or one-handed versatile melee weapon (Melee [Light]; Damage +3; Critical 2; Range [Engaged]; Defensive 1) and shield (Melee [Light]; Damage +0; Critical 6; Range [Engaged]; Defensive 1, Deflection 1, Inaccurate 1, Knockdown).",
-      "equipment": "Heavy armor (1 defense, +2 soak).",
+      "desc": "Набор для персонажа, который использует броню, чтобы подобраться достаточно близко и применить тяжелое оружие ближнего боя. Его может использовать храбрый рыцарь, благородный самурай или солдат в силовой броне с плазменным топором.",
+      "weapons": "Мощное двуручное оружие ближнего боя (Ближний бой [тяжелое]; урон +4; крит. 3; дистанция [вплотную]; Громоздкое 3, Проникающее 2, Высококритичное 1) или одноручное универсальное оружие ближнего боя (Ближний бой [легкое]; урон +3; крит. 2; дистанция [вплотную]; Оборонительное 1) и щит (Ближний бой [легкое]; урон +0; крит. 6; дистанция [вплотную]; Оборонительное 1, Отражающее 1, Неточное 1, Нокдаун).",
+      "equipment": "Тяжелая броня (1 защита, +2 поглощение).",
       "defense": {
         "soak": 2,
         "ranged defense": 1,
@@ -1342,15 +1342,15 @@
       }
     },
     {
-      "name": "Versatile Warrior",
+      "name": "Универсальный воин",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "This equipment array works for characters who use a combination of melee and ranged weapons. This could represent a cavalry soldier who fights with saber and pistol, an officer with a sword and sidearm, or a noble in a militant culture.",
-      "weapons": "One-handed versatile melee weapon (Melee [Light]; Damage +3; Critical 2; Range [Engaged]; Defensive 1), one-handed ranged weapon (Ranged [Light]; Damage 5; Critical 3; Range [Medium])",
-      "equipment": "Reinforced clothing (1 defense, +1 soak).",
+      "desc": "Набор для персонажей, комбинирующих оружия ближнего и дальнего боя. Это может быть кавалерист с саблей и пистолетом, офицер с мечом и пистолетом или дворянин воинственного строя.",
+      "weapons": "Универсальное одноручное оружие ближнего боя (Ближний бой [легкое]; урон +3; крит. 2; дистанция [вплотную]; Оборонительное 1), одноручное оружие дальнего боя (Дальний бой [легкое]; урон 5; крит. 3; дистанция [средняя])",
+      "equipment": "Прочная одежда (1 защита, +1 поглощение).",
       "defense": {
         "soak": 1,
         "ranged defense": 1,
@@ -1358,112 +1358,112 @@
       }
     },
     {
-      "name": "Adventurer",
+      "name": "Авантюрист",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Adventurers journey into danger with a smile on their face and a torch in their hand. This could represent an explorer, an airship crewmember, or even a pirate.",
-      "weapons": "One-handed ranged weapon (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Accurate 1), backup ближний бойing weapon (ближний бой; Damage +1; Critical 4; Range [Engaged]; Disorient 3).",
-      "equipment": "Leather vest (+1 soak), backpack, length of rope, torch or other light source, and well-worn hat.",
+      "desc": "Искатели приключений отправляются навстречу опасности с улыбкой на лице и факелом в руке. Это может быть исследователь, член экипажа дирижабля или даже пират.",
+      "weapons": "Одноручное оружие дальнего боя (Дальний бой [легкое]; урон 6; крит. 3; дистанция [средняя]; Точное 1), резервное оружие ближнего боя (Грубая сила; урон +1; крит. 4; дистанция [вплотную]; Дезориентация 3.",
+      "equipment": "Кожаный жилет (+1 поглощение), рюкзак, длинная веревка, фонарик или другой источник света и поношенная шляпа.",
       "defense": {
         "soak": 1
       }
     },
     {
-      "name": "Bounty Hunter",
+      "name": "Охотник за головами",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "In nearly every setting there is a need for people who hunt down criminals, escaped prisoners, or other fugitives. Their equipment helps them in their task.",
-      "weapons": "Short-ranged entangling weapon (Ranged [Heavy]; Damage 4; Critical 5; Range [Short]; Disorient 3, Ensnare 3, Limited Ammo 1), stunning melee weapon (Melee [Light]; Damage +3; Critical 5; Range [Engaged]; Stun 4; Stun Damage).",
-      "equipment": "Medium armor (+2 soak), warrants for bounties, restraints.",
+      "desc": "Почти в каждом месте нужны люди, которые вы-слеживают преступников, сбежавших заключенных или других беглецов. Их снаряжение помогает им в их задаче.",
+      "weapons": "Опутывающее оружие ближнего действия (Дальний бой [тяжелое]; урон 4; крит. 5; дистанция [короткая]; Дезориентация 3, Сковывание 3, Ограниченный боезапас 1), оглушающее оружие ближнего боя (Ближний бой [легкое]; урон +3; крит. 5; дистанция [вплотную]; Оглушение 4; Оглушающий урон).",
+      "equipment": "Средняя броня (+2 поглощение), ордера на награды, наручники.",
       "defense": {
         "soak": 2
       }
     },
     {
-      "name": "Game Hunter",
+      "name": "Охотник",
       "power_level": {
         "combat": 2,
         "social": 0,
         "general": 0
       },
-      "desc": "Some individuals hunt from elevated tree-stands or blinds, waiting for prey to happen into range. This array could also be used for a sharpshooter or assassin.",
-      "weapons": "Long-ranged hunting weapon (Ranged [Heavy]; Damage 9; Critical 3; Range [Extreme]; Accurate 1, Limited Ammo 2; reduce the difficulty of combat checks made at long or extreme range by 1).",
-      "equipment": "Camouflage (2 defense, add \udb88\udeb8 to Stealth checks made by this character), выживание pack (removes \udb88\udeb8 from выживание or внимание checks this character makes), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo).",
+      "desc": "Некоторые охотятся из засады, ожидая, когда добыча окажется в пределах досягаемости. Набор можно использовать для снайпера или ассасина.",
+      "weapons": "Охотничье оружие дальнего боя (Дальний бой [тяжелое]; урон 9; крит. 3; дистанция [экстремальная]; Точное 1, Ограниченный боезапас 2; ослабьте сложность боевых проверок, на дальней или экстремальной дистанции, на 1).",
+      "equipment": "Камуфляж (2 защита, добавить ▨ к проверкам Скрытности этого персонажа), набор для выживания (убирает \uDB88\uDEB8 из проверок Выживания или Внимания этого персонажа), подготовленная перезарядка (может потратить маневр, чтобы перезарядить оружие дальнего боя, когда закончатся патроны).",
       "defense": {
         "ranged defense": 2,
         "melee defense": 2
       }
     },
     {
-      "name": "Law Enforcement Officer",
+      "name": "Офицер полиции",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
       },
-      "desc": "Law enforcement officials from modern cops to ancient town guards typically have some sort of protective clothing and then a ranged or melee weapon of some sort.",
-      "weapons": "One-handed ranged weapon (Ranged [Light]; Damage 5; Critical 3; Range [Medium]) or one-handed bludgeoning weapon (Melee [Light]; Damage +3; Critical 4; Range [Engaged]; Disorient 2)",
-      "equipment": "Light armor (+1 soak), badge of authority (adds \udb88\udeb8 to Coercion or Leadership checks this character makes), restraints, torch or other light source.",
+      "desc": "Сотрудники правоохранительных органов, от современных полицейских до древних городских стражей, обычно имеют какую-то защитную одежду и оружие дальнего или ближнего боя.",
+      "weapons": "Одноручное оружие дальнего боя (Дальний бой [Легкое]; урон 5; крит. 3; дистанция [средняя]) или одноручное дробящее оружие (Ближний бой [легкое]; урон +3; крит. 4; дистанция [вплотную]; Дезориентация 2).",
+      "equipment": "Легкая броня (+1 поглощение), знак власти (добавляет ▨ к проверкам Запугивания или Лидерства этого персонажа), наручники, фонарик или другой источник света.",
       "defense": {
         "soak": 1
       }
     },
     {
-      "name": "Pilot",
+      "name": "Пилот",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
       },
-      "desc": "Combat pilots or operators of air vehicles must always be ready to land in hostile territory. In the appropriate setting, the flight outfit can be sealed against vacuum.",
-      "weapons": "Concealable ranged weapon (Ranged [Light]; Damage 5; Critical 4; Range [Short]).",
-      "equipment": "Flight outfit, emergency выживание kit (removes \udb88\udeb8 from выживание or внимание checks this character makes), 1 painkiller."
+      "desc": "Боевые пилоты или операторы летательных аппаратов всегда должны быть готовы приземлиться на вражеской территории. Летная экипировка может быть высотно-компенсирующей.",
+      "weapons": "Скрытное оружие дальнего боя (Дальний бой [легкое]; урон 5; крит. 4; дистанция [короткая]).",
+      "equipment": "Летная экипировка, набор для выживания (убирает \uDB88\uDEB8 из проверок Выживания или Внимания этого персонажа), 1 обезболивающее."
     },
     {
-      "name": "Flashy Outlaw",
+      "name": "Обаятельный преступник",
       "power_level": {
         "combat": 1,
         "social": 1,
         "general": 0
       },
-      "desc": "This array can equip a criminal with a flair for large, dramatic, and potentially impractical weapons. This person probably gives off a certain roguish charm.",
-      "weapons": "Intimidating ranged weapon (Ranged [Light]; Damage 7; Critical 3; Range [Medium]; Inaccurate 1).",
-      "equipment": "Dashing coat with exposed holster (+1 soak, adds \udb88\udeb4 to the results of all Charm and Coercion checks this character makes), fancy cape or hat (removes \udb88\udeb8 from all social skill checks this character makes).",
+      "desc": "Этот набор может вооружить преступника талантом к большому, эффектному и потенциально непрактичному оружию. Этот человек, вероятно, излучает некий мошеннический шарм.",
+      "weapons": "Устрашающее оружие дальнего боя (Дальний бой [легкое]; урон 7; крит. 3; дистанция [средняя]; Неточное 1).",
+      "equipment": "Шикарный плащ с открытой кобурой (+1 поглощение, добавляет \uDB88\uDEB4 к результатам всех проверок Обаяния и Запугивания этого персонажа), причудливый плащ или шляпа (удаляет \uDB88\uDEB8 из всех проверок социальных навыков этого персонажа).",
       "defense": {
         "soak": 1
       }
     },
     {
-      "name": "Defensive Magic User",
+      "name": "Пользователь защитной магии",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 2
       },
-      "desc": "This equipment array is only useful for characters who have at least one magic skill, and represents characters who use their magic defensively. This works with characters who use any magic skill.",
-      "weapons": "None.",
-      "equipment": "Magically enhanced robes (3 defense) augmenting magical implement (when the this character casts a spell, may add the Additional Target and Additional Summon effects without increasing the difficulty.  In addition, attack spells cast by this character increase their base damage by two), supernatural healing item (once per session, when this character heals wounds with a healing spell, increase the wounds healed by three).",
+      "desc": "Этот набор полезен для персонажей, которые имеют хотя бы один магический навык, и используют магию для защиты. Это работает с персонажами, использующими любой магический навык.",
+      "weapons": "Нет.",
+      "equipment": "Магические одеяния (3 защита), усиливающие магическое орудие (когда этот персонаж произносит заклинание, может добавлять эффекты Дополнительная цель и Дополнительный призыв без увеличения сложности. Кроме того, атакующие заклинания, этого персонажа, увеличивают свой базовый урон на два), исцеляющий предмет (один раз за сессию, когда этот персонаж лечит раны заклинанием, увеличьте количество излеченных ран на три).",
       "defense": {
         "ranged defense": 3,
         "melee defense": 3
       }
     },
     {
-      "name": "Offensive Magic User",
+      "name": "Пользователь атакующей магии",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
       },
-      "desc": "This equipment array is only useful for characters who have at least one magic skill, and represents characters who use their magic to attack. This works with characters who use any magic skill.",
-      "weapons": "One-handed melee weapon (Melee [Light]; Damage +3; Critical 2; Range [Engaged]; Defensive 1).",
-      "equipment": "Robes (1 defense), offensive magical implement (when the this character casts a spell, the first Range effect they add doesn't increase the difficulty. In addition, attack spells cast by this character increase their base damage by four).",
+      "desc": "Этот набор полезен для персонажей, которые имеют хотя бы один магический навык, и используют магию для атаки. Это работает с персонажами, использующими любой магический навык.",
+      "weapons": "Одноручное оружие ближнего боя (Ближний бой [легкое]; урон +3; крит. 2; дистанция [вплотную]; Оборонительное 1).",
+      "equipment": "Роба (1 защита), наступательное магическое орудие (когда этот персонаж произносит заклинание, первый добавляемый им эффект дальности не увеличивает сложность. Кроме того, атакующие заклинания, применяемые этим персона-жем, увеличивают их базовый урон на четыре).",
       "defense": {
         "ranged defense": 1,
         "melee defense": 1
@@ -1472,8 +1472,8 @@
   ],
   "defense": [
     {
-      "name": "Tough Skin",
-      "ex": "Minions, rivals, nemeses",
+      "name": "Прочная кожа",
+      "ex": "Приспешники, Соперники, Главари",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1485,8 +1485,8 @@
       }
     },
     {
-      "name": "Armored Hide",
-      "ex": "Rival or nemesis animals or non-humans",
+      "name": "Бронированная шкура",
+      "ex": "Соперник или Главарь животное или не человек",
       "power_level": {
         "combat": 1,
         "social": 0,
@@ -1498,8 +1498,8 @@
       }
     },
     {
-      "name": "Dodgy",
-      "ex": "Minions, rivals, nemeses",
+      "name": "Изворотливый",
+      "ex": "Приспешники, Соперники, Главари",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1511,8 +1511,8 @@
       }
     },
     {
-      "name": "Close Combatant",
-      "ex": "Rivals, nemeses",
+      "name": "Ближний боец",
+      "ex": "Соперники, Главари",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1523,8 +1523,8 @@
       }
     },
     {
-      "name": "Camouflaged",
-      "ex": "Rival or nemesis animals or non-humans",
+      "name": "Замаскированный",
+      "ex": "Соперник или Главарь животное или не человек",
       "power_level": {
         "combat": 1,
         "social": 0,
@@ -1536,8 +1536,8 @@
       }
     },
     {
-      "name": "Hardy",
-      "ex": "Rivals, nemeses",
+      "name": "Выносливый",
+      "ex": "Соперники, Главари",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1548,8 +1548,8 @@
       }
     },
     {
-      "name": "Very Tough",
-      "ex": "Rival animals or non-humans and all nemeses",
+      "name": "Очень крепкий",
+      "ex": "Соперник животное или не человек и все Главари",
       "power_level": {
         "combat": 1,
         "social": 0,
@@ -1560,8 +1560,8 @@
       }
     },
     {
-      "name": "Giant Body",
-      "ex": "Silhouette 3 or higher animal rivals and nemeses",
+      "name": "Гигантское тело",
+      "ex": "Силуэт 3 или выше животное Соперник и Главарь",
       "power_level": {
         "combat": 2,
         "social": 0,
@@ -1572,8 +1572,8 @@
       }
     },
     {
-      "name": "Savvy",
-      "ex": "Nemeses",
+      "name": "Сообразительный",
+      "ex": "Главари",
       "power_level": {
         "combat": 0,
         "social": 0,
@@ -1584,8 +1584,8 @@
       }
     },
     {
-      "name": "Mental Giant",
-      "ex": "Main character nemeses",
+      "name": "Гигант мысли",
+      "ex": "Главный враг Главарь",
       "power_level": {
         "combat": 0,
         "social": 1,
