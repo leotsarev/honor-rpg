@@ -160,7 +160,7 @@ function update_url(){
 };
 
 function update_name() {
-  name_adver = document.querySelector('input[placeholder="Name"]').value;
+  name_adver = document.getElementById('adversary_name_input').value;
   var field = document.getElementById('name');
   field.innerText = (name_adver == "") ? 'Имя' : name_adver;
   
@@ -284,6 +284,7 @@ function template(){
 }
 
 function toogle_template(){
+  /*
   if (typeof display_template === 'undefined')
     display_template = false;
   else 
@@ -303,7 +304,7 @@ function toogle_template(){
   copy_button.style.display = 'none';
   }
   return area
-
+  */
 }
 
 function copy(){
@@ -314,7 +315,7 @@ function copy(){
 }
   
 loading();
-toogle_template();
+//toogle_template();
 update_name();
 update();
 
