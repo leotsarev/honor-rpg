@@ -23,7 +23,7 @@ jobs:
       - name: Compile adversary file 
         run: python ./scripts/adversary-generator.py
       - name: Build only 
-        uses: shalzz/zola-deploy-action@v0.19.1
+        uses: shalzz/zola-deploy-action@v0.19.2
         env:
           BUILD_ONLY: true
           BUILD_FLAGS: --drafts
@@ -46,7 +46,7 @@ jobs:
       - name: Compile adversary file 
         run: python ./scripts/adversary-generator.py
       - name: Build and deploy
-        uses: shalzz/zola-deploy-action@v0.19.1
+        uses: shalzz/zola-deploy-action@v0.19.2
         env:
           PAGES_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
