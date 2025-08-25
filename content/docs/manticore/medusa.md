@@ -1,8 +1,7 @@
 +++
 title = "Медуза"
 description = "Карта Медузы"
-date = 2022-08-27
-updated = 2022-08-27
+
 draft = false
 weight = 115
 sort_by = "weight"
@@ -12,6 +11,8 @@ aliases = ["docs/setting/medusa" ]
 [extra]
 toc = false
 top = false
+date = 2022-08-27
+updated = 2022-08-27
 +++
 
-{{ image_resized(url="../medusa_map2.png")}}
+{{ image_resized(url="../medusa_map.png")}}

@@ -1,8 +1,7 @@
 +++
 title = "Почему война неизбежна"
 description = "Почему война неизбежна: Хевен завоюет Мантикору"
-date = 2023-08-12
-updated = 2023-08-12
+
 draft = true
 weight = 18901
 sort_by = "weight"
@@ -11,6 +10,8 @@ template = "docs/page.html"
 [extra]
 toc = true
 top = false
+date = 2023-08-12
+updated = 2023-08-12
 +++
 
 Автор — Профессор политологии Королевского Университета Лэндинга Кларенс Уилсон.

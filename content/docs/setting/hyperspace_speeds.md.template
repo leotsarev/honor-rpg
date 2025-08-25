@@ -1,8 +1,7 @@
 +++
 title = "Скорости кораблей"
 description = "Введение в сеттинг"
-date = 2023-09-15
-updated = 2023-09-15
+
 draft = false
 weight = 120
 sort_by = "weight"
@@ -11,6 +10,8 @@ template = "docs/page.html"
 [extra]
 toc = false
 top = false
+date = 2023-09-15
+updated = 2023-09-15
 +++
 
 

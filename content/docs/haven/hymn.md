@@ -1,8 +1,6 @@
 +++
 title = "Гимн Хевена"
 description = "Гимн"
-date = 2022-03-06
-updated = 2022-03-06
 draft = false
 weight = 35
 sort_by = "weight"
@@ -12,6 +10,8 @@ aliases = ["/docs/setting/haven-hymn/"]
 [extra]
 toc = false
 top = false
+date = 2022-03-06
+updated = 2022-03-06
 +++
 
 Мелодия Starway to Haven ([минусовка](<../StarwayToHaven-EFKLGFKLM.mp3>))

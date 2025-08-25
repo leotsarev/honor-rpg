@@ -1,12 +1,15 @@
 +++
 title = "Космическая боевка"
 description = "Космическая боевка"
-date = 2023-10-06
-updated = 2023-10-06
+
 draft = true
 weight = 80
 sort_by = "weight"
 template = "docs/page.html"
+
+[extra]
+date = 2023-10-06
+updated = 2023-10-06
 +++
 
 ###

@@ -1,8 +1,7 @@
 +++
 title = "Навыки"
 description = "Навыки"
-date = 2022-03-05
-updated = 2022-03-05
+
 draft = false
 weight = 30
 sort_by = "weight"
@@ -11,6 +10,8 @@ template = "docs/page.html"
 [extra]
 toc = false
 top = false
+date = 2022-03-05
+updated = 2022-03-05
 +++
 
 Подробности по скиллам есть в книге правил Genesys, здесь только дополнения

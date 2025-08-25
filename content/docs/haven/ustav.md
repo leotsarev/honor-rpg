@@ -1,8 +1,6 @@
 +++
 title = "Устав Народного флота"
 description = "Введение в сеттинг"
-date = 2022-03-06
-updated = 2022-03-06
 draft = false
 weight = 110
 sort_by = "weight"
@@ -12,6 +10,9 @@ aliases = ["docs/setting/haven-ustav/"]
 [extra]
 toc = true
 top = false
+date = 2022-03-06
+updated = 2022-03-06
+
 +++
 
 Тут всякие задротские материалы про флот (Устав, положение о комиссарах). Читать их необязательно.

@@ -1,8 +1,7 @@
 +++
 title = "Флот"
 description = "Введение в сеттинг"
-date = 2022-03-06
-updated = 2022-03-06
+
 draft = false
 weight = 100
 sort_by = "weight"
@@ -11,6 +10,8 @@ template = "docs/page.html"
 [extra]
 toc = true
 top = false
+date = 2022-03-06
+updated = 2022-03-06
 +++
 
 Тексты про общее представление про флот.

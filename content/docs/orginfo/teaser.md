@@ -1,8 +1,6 @@
 +++
 title = "Тизер"
 description = "Предварительная инфа по модулю"
-date = 2022-03-05
-updated = 2022-03-05
 draft = false
 weight = 10
 sort_by = "weight"
@@ -11,6 +9,8 @@ template = "docs/page.html"
 [extra]
 toc = false
 top = false
+date = 2022-03-05
+updated = 2022-03-05
 +++
 ## Устарело
 

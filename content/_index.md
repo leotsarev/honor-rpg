@@ -5,8 +5,8 @@ title = "Модуль по хонор"
 # The homepage contents
 [extra]
 lead = 'Все по модулю Царевых по <b>вселенной хонор</b>'
-url = "/docs/news/1902/"
-url_button = "Новости (1902)"
+url = "/docs/news/"
+url_button = "Новости"
 
 # Menu items
 [[extra.menu.main]]

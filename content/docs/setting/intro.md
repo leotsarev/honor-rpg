@@ -1,8 +1,6 @@
 +++
 title = "Введение в сеттинг"
 description = "Введение в сеттинг"
-date = 2022-03-06
-updated = 2022-03-06
 draft = false
 weight = 10
 sort_by = "weight"
@@ -11,6 +9,8 @@ template = "docs/page.html"
 [extra]
 toc = true
 top = false
+date = 2022-03-06
+updated = 2022-03-06
 +++
 
 ## Что нужно знать про мир

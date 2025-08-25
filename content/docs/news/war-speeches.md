@@ -1,8 +1,7 @@
 +++
 title = "1902. Речи об объявлении войны"
 description = "Новости о начале войны"
-date = 2024-01-26
-updated = 2024-01-26
+
 draft = true
 weight = 19020
 sort_by = "weight"
@@ -11,6 +10,8 @@ template = "docs/page.html"
 [extra]
 toc = true
 top = false
+date = 2024-01-26
+updated = 2024-01-26
 +++
 
 Обращение Председателя Комитета Общественного Спасения гражданина Роба С. Пьера

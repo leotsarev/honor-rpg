@@ -1,8 +1,7 @@
 +++
 title = "Мантикорские корабли"
 description = "Справочник кораблей"
-date = 2023-10-01
-updated = 2023-10-01
+
 template = "docs/page.html"
 sort_by = "weight"
 weight = 60
@@ -11,6 +10,8 @@ draft = false
 [extra]
 toc = true
 top = false
+date = 2023-10-01
+updated = 2023-10-01
 +++
 
 Список типов мантикорских кораблей.
