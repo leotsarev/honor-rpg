@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://honor-rpg.leotsarev.ru/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://honor-rpg.leotsarev.ru/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://honor-rpg.leotsarev.ru/main.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Генетическое рабство | Хонор</title>
+<meta name="description" content="Работорговля">
+<link rel="canonical" href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://honor-rpg.leotsarev.ru/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Docs",
+            "item": "https://honor-rpg.leotsarev.ru/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Setting",
+            "item": "https://honor-rpg.leotsarev.ru/docs/setting/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Slavery",
+            "item": "https://honor-rpg.leotsarev.ru/docs/setting/slavery/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://honor-rpg.leotsarev.ru/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://honor-rpg.leotsarev.ru/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://honor-rpg.leotsarev.ru/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://honor-rpg.leotsarev.ru/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://honor-rpg.leotsarev.ru">Хонор</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/leotsarev/honor-rpg"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://t.me/+sCFQi8n4ivszMDQ6"><svg width="20px" height="20px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.2583404%" id="linearGradient-1">             <stop stop-color="#2AABEE" offset="0%"></stop>             <stop stop-color="#229ED9" offset="100%"></stop>         </linearGradient>  </defs> <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">  <circle id="Oval" fill="url(#linearGradient-1)" cx="500" cy="500" r="500"></circle> <path d="M226.328419,494.722069 C372.088573,431.216685 469.284839,389.350049 517.917216,369.122161 C656.772535,311.36743 685.625481,301.334815 704.431427,301.003532 C708.567621,300.93067 717.815839,301.955743 723.806446,306.816707 C728.864797,310.92121 730.256552,316.46581 730.922551,320.357329 C731.588551,324.248848 732.417879,333.113828 731.758626,340.040666 C724.234007,419.102486 691.675104,610.964674 675.110982,699.515267 C668.10208,736.984342 654.301336,749.547532 640.940618,750.777006 C611.904684,753.448938 589.856115,731.588035 561.733393,713.153237 C517.726886,684.306416 492.866009,666.349181 450.150074,638.200013 C400.78442,605.66878 432.786119,587.789048 460.919462,558.568563 C468.282091,550.921423 596.21508,434.556479 598.691227,424.000355 C599.00091,422.680135 599.288312,417.758981 596.36474,415.160431 C593.441168,412.561881 589.126229,413.450484 586.012448,414.157198 C581.598758,415.158943 511.297793,461.625274 375.109553,553.556189 C355.154858,567.258623 337.080515,573.934908 320.886524,573.585046 C303.033948,573.199351 268.692754,563.490928 243.163606,555.192408 C211.851067,545.013936 186.964484,539.632504 189.131547,522.346309 C190.260287,513.342589 202.659244,504.134509 226.328419,494.722069 Z" id="Path-3" fill="#FFFFFF"></path> </g></svg><span class="ms-2 visually-hidden">Telegram</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/rules/">Хоумрулы</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/setting/">Сеттинг</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/manticore/">Мантикора</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/haven/">Хевен</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/orginfo/players/">Игроки</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/news/">Новости</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/setting/galaxy-map/">Карта</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+					<h3> <a href="https://honor-rpg.leotsarev.ru/docs/rules/"> Хоумрулы </a></h3>
+					
+					
+					
+					
+					
+							<h3>Сеттинг</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/intro/">Введение в сеттинг</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/galaxy-chars/">Общеизвестные персонажи</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/san-martin/">Сан-Мартин</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/zanzibar/">Занзибар</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/realms/">Известные страны</a></li>
+							                           
+									<li><a class="docs-link active" href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/">Генетическое рабство</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/fleet/">Флот</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/military-ranks/">Воинские звания</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/hyperspace-speeds/">Скорости кораблей</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/galaxy-map/">Карта галактики</a></li>
+							
+					</ul>
+					
+					
+					
+					
+					
+					<h3> <a href="https://honor-rpg.leotsarev.ru/docs/manticore/"> Мантикора </a></h3>
+					
+					
+					
+					
+					<h3> <a href="https://honor-rpg.leotsarev.ru/docs/haven/"> Хевен </a></h3>
+					
+					
+					
+					
+					<h3> <a href="https://honor-rpg.leotsarev.ru/docs/orginfo/"> Оргинфо </a></h3>
+					
+					
+					
+					
+					<h3> <a href="https://honor-rpg.leotsarev.ru/docs/news/"> Новости </a></h3>
+					
+					
+			
+	</nav>
+</div>
+
+	  
+  
+  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  	<div class="page-links">
+  			<h3>On this page</h3>
+  			<nav id="TableOfContents">
+  					<ul>
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/#detveiler-i-osnovanie-mezy">Детвейлер и основание Мезы</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/#cheruel-skaia-konventsiia">Черуэльская конвенция</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/#meza">Меза</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/#klony-proizvodstva-korporatsii-rabsila">Клоны производства корпорации Рабсила</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/#bal-naia-zala-odiubon-i-drugie-organizatsii">Бальная Зала Одюбон и другие организации</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/#chars">Персонажи</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/slavery/#v-e-b-diugavel">В.Э.Б. ДюГавел</a></li>
+  											
+  									</ul>
+  							
+  							
+  					</ul>
+  			</nav>
+  	</div>
+  </nav>
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>Генетическое рабство</h1>
+        
+        <p>В XX веке после Расселения удивительно, что перед человечеством все еще стоит проблема так называемой генетической работорговли (или, как говорят сами работорговцы, «генетического пожизненного услужения»). Генетические рабы создаются искусственно в клон-чанах с целью определенной работы, часто связанной с тяжелыми физическими условиями, колонизацией на сильно отличающихся от земных планет и проч. Отношение к этому варьируется от крайне негативного (в Народной Республике Хевен, Звездном королевстве Мантикоры) к допустимому (многие миры на окраинах обитаемой Галактики).</p>
+<p>Исторически человечество активно применяло генетические модификации с целью колонизации планет. Ужасы так называемой Последней Войны на Терре (Старой Земле) привели к подписанию в конце Х века так называемого «Беовульфского кодекса», который запретил любую форму вмешательства в человеческий геном, а также вмешательство в человеческий организм на наноуровне. Он был принят в большинстве цивилизованных миров той поры, и после образования Соларианской Лиги стал ее законом. Это существенно замедлило прогресс биотехнологий.</p>
+<h2 id="detveiler-i-osnovanie-mezy">Детвейлер и основание Мезы</h2>
+<p>В XV веке великий беовульфский ученый и предприниматель, Леонард Детвейлер, открыл большую общественную дискуссию относительно ограничений Беовульфского кодекса и проблемности его ограничений для развития биотехнологий. Не получив поддержки от соларианской общественности, он и его со-инвесторы колонизировали небольшую планету Меза за пределами Соларианской Лиги. На ней были официально разрешены любые эксперименты с человеческим геномом, в том числе разрешено клонирование человека, и заключение так называемых пожизненных контрактов с клонами. Консорциум Детвейлера, ныне известный как корпорация «Рабсила», стал мировым лидером по производству клонов.</p>
+<p>XV-XVI века известны как «серебряный век биотехнологий». В это время резко подешевело и ускорилось освоение планет благодаря созданию генотипов, приспособленных к местным условиям, и производству оснащенных ими клонов. Меза одновременно испытывала научный и биотехнологический бум и была одной из самых свободных (в регуляторном и налоговом плане) юрисдикций в Галактике. Множество мезанских корпораций в это время разбогатело и выстроило прочные взаимовыгодные связи с соларианскими — партнерства, а часто и взаимного владения.</p>
+<h2 id="cheruel-skaia-konventsiia">Черуэльская конвенция</h2>
+<p>Однако распространение фактически узаконенного рабства, разумеется, вызвало серьезное неудовольствие в просвещенном соларианском обществе. Под давлением Беовульфа Соларианская Лига выступила инициатором создания так называемой Черуэльской конвенции. Рабство было не только запрещено на территории государств-подписантов, но они присвоили себе право на борьбу с перевозкой рабов во всегалактическом масштабе. Теперь любой работорговческий корабль мог быть задержан и арестован, а его команда подвергнута серьезному наказанию — даже если в их порту приписки рабство разрешено. Подписантами конвенции являются Соларианская Лига, Народная Республика Хевен, Звездное Королевство Мантикора, Андерманская Империя и несколько других стран.</p>
+<p>В настоящее время рабство остается разрешенным во многих мирах на окраинах Галактики, в том числе во многих мирах-протекторатах Соларианской Лиги (разумеется, т.к. это «внутреннее» дело соответствующих миров, которые формально не являются частью Лиги). Строгое соблюдение буквы Черуэльской конвенции флотом Соларианской Лиги снижает эффективность борьбы против работорговцев, особенно с распространением так называемых «выкидных устройств», которые выбрасывают за борт корабля рабов и очищают записи бортжурналов при угрозе задержания. Широкое их распространение привело к тому, что часть подписантов конвенции — в частности мантикорцы и хевениты (но не соларианцы) — приняли так называемую оговорку об оборудовании, привлекая к ответственности команду корабля, оборудованную для перевозки рабов, независимо от наличия рабов на борту.</p>
+<h2 id="meza">Меза</h2>
+<p>Ныне Меза остается независимой богатой нацией, несмотря на все попытки ограничить работорговлю. Там по-прежнему разрешено рабство, более того, в XVII веке конституция Мезы запретила отпускать рабов на волю, сделав рабское состояние пожизненным и наследственным. Власть на Мезе принадлежит корпорациям, которые выбирают Правление пропорционально уплаченным налогам. Крупнейшей из корпорацией до сих пор является Рабсила, хотя род ее основателей Детвейлеров давно прервался и корпорация ныне принадлежит широкому кругу акционеров.  Генетические рабы — рабочие, техники, охранники, офисные сотрудники, артисты, рабы для удовольствий etc — пользуются широким спросом во многих не очень цивилизованных уголках галактики, а шанс натолкнутся на патруль — лишь цена ведения бизнеса.</p>
+<p>Мезанские корпорации ведут активный бизнес с соларианскими — но, разумеется, кроме тех их подразделений, которые непосредственно занимаются работорговлей. Некоторые соларианцы с презрением относятся к мезанцам, но большинство считает, что деньги не пахнут — тем более непосредственно вот этот приятный человек, разумеется, никакого личного отношения к работорговле не имеет.</p>
+<h2 id="klony-proizvodstva-korporatsii-rabsila">Клоны производства корпорации Рабсила</h2>
+<p>Встретив генетического раба на улице, вы вряд ли отличите его от обычного человека. Хотя каждая генетическая линия клонов Рабсилы специализирована для определенного труда и в связи с этим имеет особенности конституции и умственную склонность к определенному виду деятельности, внесение вариабельности во внешность в рамках одной линии не вызывает затруднений у генетических техников и позволяет создавать эксклюзивный товар малыми силами.</p>
+<p>Про производственный процесс Рабсилы известно немногое, но в результате обследования захваченных партий было установлено:</p>
+<ol>
+<li>В геном клонов производства Рабсилы заложена метка на языке, являющаяся их именем, которую невозможно замаскировать или подделать (хотя современные биоскульпторы нередко берутся за ее перманентное удаление, но операция является сложной и дорогостоящей).</li>
+<li>Клоны «рождаются» обычными младенцами, но развиваются и достигают физической зрелости быстрее, чем обычные люди (до полутора раз).</li>
+<li>Генетические рабы, хотя и могут пройти терапию пролонгом в случае их освобождения в молодом возрасте, всегда живут меньше обычных людей и имеют специфические для своих «производственных линий» проблемы со здоровьем.</li>
+</ol>
+<h2 id="bal-naia-zala-odiubon-i-drugie-organizatsii">Бальная Зала Одюбон и другие организации</h2>
+<p>Самой печально известной организацией, посвятившей свою жизнь борьбе с работорговлей, является так называемая Бальная Зала Одюбон (названа в честь <a href="https://en.wikipedia.org/wiki/Audubon_Ballroom">исторического места на Старой Земле</a>). Бальная Зала практически целиком состоит из беглых рабов и признана террористической организацией практически во всех цивилизованных странах. Это неудивительно, потому что Бальная Зала известна полной неразборчивостью в методах — убийства и похищения являются стандартным modus operandi это организации. Более того, Бальная Зала активно применяет неизбирательные методы — взорвать пассажирский лайнер с людьми потому, что одну из кают занял топ Рабсилы? Легко! Бальная Зала не связывает себе руки никаким образом при борьбе со <em>скорпионами</em> — так рабы называют работорговцев.</p>
+<p>Также в Соларианской Лиге существуют множество НКО, которые выступают гуманитарными, лоббистскими и журналистскими методами против рабовладения. Самой известная из них —  Антирабовладельческая Лига (АРЛ) — как, впрочем, и множество помельче, располагается на Беовульфе. Власти Беовульфа неоднократно проверяли обвинения в связи АРЛ с Бальной Залой, но они никогда не подтверждались.</p>
+<h1 id="chars">Персонажи</h1>
+<br style="clear:both" >
+<div style="float:left">
+
+<img src="https://honor-avatars.tsarevs.ru/du-havel.jpg" width="200px" height="200px" style="margin: 0.5em;"/>
+
+
+
+
+</div><h5 id="v-e-b-diugavel">В.Э.Б. ДюГавел</h5>
+<p>Популярный писатель и один из лидеров Антирабовладельческой лиги, В.Э.Б. ДюГавел. Бывший генетический раб, имя при рождении J-16b-79-2/3. Постоянно проживает на планете Беовульф (Соларианская Лига).</p>
+<!-- 
+<br style="clear:both" >
+<div style="float:left">
+
+<img src="https://honor-avatars.tsarevs.ru/david-x.jpg" width="200px" height="200px" style="margin: 0.5em;"/>
+
+
+
+
+</div>
+##### Давид Икс
+Террорист, член организации «Бальная Зала Одюбон». Бывший генетический раб, имя при рождении неизвестно. Убил себя при аресте на планете Августа.
+
+<br style="clear:both" >
+<div style="float:left">
+
+<img src="https://honor-avatars.tsarevs.ru/sintia-x.jpg" width="200px" height="200px" style="margin: 0.5em;"/>
+
+
+
+
+</div>
+##### Синтия Икс
+Террорист, член организации «Бальная Зала Одюбон». Вероятно, связана с [терактом на планете Сан-Мартин](https://t.me/c/1554956537/20). Местонахождение неизвестно, разыскивается властями Сан-Мартина и Звездного Королевства Мантикора. Вероятно, бывший генетический раб или потомок раба.
+
+<br style="clear:both" >
+<div style="float:left">
+
+<img src="https://honor-avatars.tsarevs.ru/angela_ix_pixelated.png" width="200px" height="200px" style="margin: 0.5em;"/>
+
+
+
+
+</div>
+##### Анжела Икс
+Террорист, член организации «Бальная Зала Одюбон». Взяла на себя ответственность за террористический акт — [убийство Сабрины Логмонт](https://t.me/c/1554956537/104) (Сан-Мартин). Местонахождение неизвестно, разыскивается властями Народной Республики Сан-Мартин и Народной Республики Хевен. Вероятно, бывший генетический раб или потомок раба. Фото высокого качества нет.
+-->
+        
+        
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+            
+              
+              <a href="https:&#x2F;&#x2F;honor-rpg.leotsarev.ru&#x2F;docs&#x2F;rules&#x2F;equip&#x2F;">
+                <div class="card my-1">
+                  <div class="card-body py-2">
+                    &larr; Снаряжение
+                  </div>
+                </div>
+              </a>
+            
+            
+            
+          
+        
+      
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;honor-rpg.leotsarev.ru&#x2F;docs&#x2F;manticore&#x2F;main&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+                Анонс Мантикоры &rarr;
+              </div>
+            </div>
+          </a>
+          
+          
+          
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Сделано при помощи <a href="https://www.getzola.org/">Zola</a> и <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://honor-rpg.leotsarev.ru/js/main.js" defer></script>
+
+  
+</body>
+</html>
